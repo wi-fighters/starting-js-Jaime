@@ -1,5 +1,3 @@
-### Jaime Segura
-
 var firstName = "Jaime"
 var lastName = "Segura"
 
