@@ -3,15 +3,16 @@ let lastName = "Segura"
 
 console.log("Exercise 1:" + " " + firstName, lastName);
 
-let name = "Dave";
-let surname = "Grohl";
-let age = 50;
-let job = "rock star";
-let city = "Ohio";
+let name = "John";
+let surname = "Smith";
+let age = 43;
+let job = "teacher";
+let city = "Berlin";
 
 console.log("Exercise 2:" + " " + name, surname, age, job, city);
 
-console.log("Exercise 3:" + " " + name + " " + surname + " " + "is a" + " " + age + " " + "years old" + " " + job + " " + "who was born in" + " " + city + ".");
+
+
 
 
 
