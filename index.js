@@ -1,7 +1,9 @@
-let ageMark = 32;
-let ageJohn = "38";
+let a = 3;
+let b = 8;
+let c = 23;
 
-console.log((ageJohn > ageMark)?"John is older than Mark: true":"Nope, Mark is older");
-
+console.log(a === b);
+console.log(b === c);
+console.log(a === c);
 
 
