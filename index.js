@@ -1,5 +1,5 @@
-let test
+let calculation = 3 * 8 + 10 / 2 - 10
 
-console.log(typeof test);
+console.log(calculation);
 
-//undefined because we didn't assign any value to the variable test, we just declared it
+// 19
