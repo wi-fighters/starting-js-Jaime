@@ -1,18 +1,9 @@
-let firstName = "Jaime"
-let lastName = "Segura"
+let length = 16.78; 
+let lastName = "Johnson"; 
+let car = ""; 
+let isOpen = true;
 
-console.log("Exercise 1:" + " " + firstName, lastName);
-
-let name = "John";
-let surname = "Smith";
-let age = 43;
-let job = "teacher";
-let city = "Berlin";
-
-console.log("Exercise 2:" + " " + name, surname, age, job, city);
-
-console.log("Exercise 3:" + " " + name + " " + surname + " " + "is a" + " " + age + " " + "year old" + " " + job + " " + "who lives in" + " " + city);
-
-
-
-
+console.log(typeof length);
+console.log(typeof lastName);
+console.log(typeof car);
+console.log(typeof isOpen);
