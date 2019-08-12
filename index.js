@@ -1,4 +1,5 @@
-let programmingLanguage = "Javascript";
-let isFun = true;
+let test
 
-console.log(programmingLanguage + " " + "is fun:" + " " + isFun);
+console.log(typeof test);
+
+//undefined because we didn't assign any value to the variable test, we just declared it
