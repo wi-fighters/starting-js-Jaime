@@ -14,3 +14,15 @@ const workingDays = 10;
 console.log(`Noemy's average hour is: ${workingHours / workingDays}`); // 5.85 hours
 
 
+// EXERCISE 3: Score
+
+const average = 85;
+const numberOfTests = 6;
+const testOne = 75;
+const testTwo = 70;
+const testThree = 85;
+const testFour = 90;
+const testFive = 100;
+
+console.log(`Expected output: Score in the sixth test: ${(average * numberOfTests) - (testOne + testTwo + testThree + testFour + testFive)}`);
+
