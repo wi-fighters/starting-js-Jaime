@@ -8,11 +8,12 @@ console.log(firstName,surname);
 // EXERCISE 2: Variable info
 
 let name = "John Smith";
-let age = "43";
+let age = 43;
 let job = "teacher";
 let city = "Berlin";
+let hobby = "football";
 
-console.log(name, age, job, city);
+console.log(name, age, job, city, hobby);
 
 // EXERCISE 3: Concatenation
 
@@ -67,7 +68,6 @@ let test
 console.log(test); // undefined, because we didn't assign a value to the variable test, we only declared it
 
 // EXERCISE 10: Calculation!
->>>>>>> origin/master
 
 let calculation = 2*5 + 10/2 - 5;
 console.log(calculation); // 10
