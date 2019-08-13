@@ -26,3 +26,12 @@ const testFive = 100;
 
 console.log(`Expected output: Score in the sixth test: ${(average * numberOfTests) - (testOne + testTwo + testThree + testFour + testFive)}`);
 
+
+// EXERCISE 4: The minimum Score
+
+const finalAverage = 80;
+const finalAssessments = 9;
+const actualAverage = 78;
+const actualAssessments = 8;
+
+console.log(`James needs a minimum of ${(finalAverage * finalAssessments) - (actualAverage * actualAssessments)}% to get an 80% average.`);
