@@ -49,3 +49,47 @@ const tipThree = billThree * 0.20;
 console.log(`The total amount of the first bill including 10% tip is: ${billOne + tipOne}`); // 24.58
 console.log(`The total amount of the second bill including 15% tip is: ${billTwo + tipTwo}`); // 30.67
 console.log(`The total amount of the third bill including 20% tip is: ${billThree + tipThree}`); // 43.10
+
+
+// EXERCISE 6: Geometry Formulas
+
+// 6.1: Perimeter of a square
+
+const sideLength = 4.75;
+const sides = 4;
+
+console.log(`The perimeter of this square is ${sideLength * sides}cm.`); // 19cm
+
+
+// 6.2: Perimeter of a triangle
+
+const sideOne = 5;
+const sideTwo = 6;
+const sideThree = 7;
+
+console.log(`The perimeter of this triangle is ${sideOne + sideTwo + sideThree}cm.`); // 18cm
+
+
+// 6.3: Area of a square
+
+const sideSquare = 5;
+const totalSides = 4;
+
+console.log(`The area of this square is ${sideSquare * totalSides}cm.`); // 20cm
+
+
+// 6.4: Area of a triangle
+
+// const sideOneTriangle = 5;
+// const sideTwoTriangle = 6;
+// const sideThreeTriangle = 7;
+
+// console.log(`The area of this triangle is ${}cm.`); //
+
+
+// 6.5: Volume of a cube
+
+
+
+
+
