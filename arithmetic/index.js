@@ -94,6 +94,14 @@ const sideLengthCube = 9;
 console.log(`The volume of the cube is ${sideLengthCube * sideLengthCube * sideLengthCube}cm.`); // 729cm
 
 
+// EXERCISE 7: Basic world problems
+
+const totalAmount = 6450;
+const priceTicket = 15;
+
+console.log(`${totalAmount / priceTicket} people purchased a ticket.`); // 430 people
+
+
 
 
 
