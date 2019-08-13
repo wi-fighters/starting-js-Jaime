@@ -89,6 +89,10 @@ console.log(`The area of this square is ${sideSquare * totalSides}cm.`); // 20cm
 
 // 6.5: Volume of a cube
 
+const sideLengthCube = 9;
+
+console.log(`The volume of the cube is ${sideLengthCube * sideLengthCube * sideLengthCube}cm.`); // 729cm
+
 
 
 
