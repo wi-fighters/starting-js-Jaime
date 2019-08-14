@@ -24,13 +24,23 @@ console.log((personAge < minAge)? "Here's some juice": "Here's some wine");
 
 // 4. Student Discount
 
-const isStudent = 28;
+// const isStudent = 28;
 
-console.log((isStudent >= 18 && isStudent <= 25)? "Ticket costs €5,00": "Ticket costs €12,00");
+// console.log((isStudent >= 18 && isStudent <= 25)? "Ticket costs €5,00": "Ticket costs €12,00");
+
+const student = true;
+const isStudent = (student) ? "Ticket costs 5EUR" : "Ticket costs 12EUR";
+
+console.log(isStudent);
 
 
 // 5. What time is it?
 
-const timeOfDay = 20;
+// const timeOfDay = 20;
 
-console.log((timeOfDay >= 6 && timeOfDay < 13)? "Good Morning": "Good Evening");
+// console.log((timeOfDay >= 6 && timeOfDay < 13)? "Good Morning": "Good Evening");
+
+const morning = true;
+const timeOfDay = (morning)? "Good morning": "Good evening";
+
+console.log(timeOfDay);
