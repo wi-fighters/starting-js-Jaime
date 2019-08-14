@@ -34,7 +34,7 @@ const finalAssessments = 9;
 const currentAverage = 78;
 const currentAssessments = 8;
 
-console.log(`James needs a minimum of ${(finalAverage * finalAssessments) - (actualAverage * actualAssessments)}% to get an 80% average.`); // 96%
+console.log(`James needs a minimum of ${(finalAverage * finalAssessments) - (currentAverage * currentAssessments)}% to get an 80% average.`); // 96%
 
 
 // EXERCISE 5: Consumer Formula
