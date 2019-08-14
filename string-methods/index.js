@@ -56,3 +56,10 @@ Does the string include a "n"? ${shoes.includes("n")}`);
 
 const firstString = "JavaScript";
 console.log(`${firstString[0]}${firstString}${firstString[0]}`);
+
+
+// 9
+
+console.log(`${firstString.substring(7)}${firstString}${firstString.substring(7)}`);
+
+
