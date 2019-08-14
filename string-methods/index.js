@@ -75,3 +75,11 @@ console.log(`Does our string include the word Java? ${computer.includes("Java")}
 const myString = "JavaScript";
 console.log(`${myString[myString.length - 1]}${myString.substring(1, myString.length - 1)}${myString[0]}`);
 
+
+// 12
+
+const myName = "Jaime";
+const myCity = "Berlin";
+const myJob = "web developer";
+console.log(`My name is ${myName}. I live in ${myCity} and I am a ${myJob}.`);
+
