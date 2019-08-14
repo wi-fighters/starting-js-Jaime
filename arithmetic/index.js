@@ -74,7 +74,7 @@ console.log(`The perimeter of this triangle is ${sideOne + sideTwo + sideThree}c
 
 const sideSquare = 5;
 
-console.log(`The area of this square is ${sideSquare * sideSquare}cm2.`); // 25cm2
+console.log(`The area of this square is ${sideSquare * sideSquare}cm2.`); // 25cm
 
 
 // 6.4: Area of a triangle
