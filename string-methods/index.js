@@ -53,3 +53,6 @@ Does the string include a "n"? ${shoes.includes("n")}`);
 
 
 // 8
+
+const firstString = "JavaScript";
+console.log(`${firstString[0]}${firstString}${firstString[0]}`);
