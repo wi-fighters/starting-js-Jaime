@@ -90,7 +90,7 @@ console.log(`The area of this square is ${sideSquare * sideSquare}cm2.`); // 25c
 
 const sideLengthCube = 9;
 
-console.log(`The volume of the cube is ${sideLengthCube * sideLengthCube * sideLengthCube}cm.`); // 729cm
+console.log(`The volume of the cube is ${sideLengthCube * sideLengthCube * sideLengthCube}cm3.`); // 729cm3
 
 
 // EXERCISE 7: Basic world problems
