@@ -18,3 +18,11 @@ console.log((speedCheck > 130)? "You're going too fast - slow down": "You're dri
 const personAge = 25;
 
 console.log((personAge < 21)? "Here's some juice": "Here's some wine");
+
+
+// 4. Student Discount
+
+const isStudent = 22;
+
+console.log((isStudent >= 18 && isStudent <= 25)? "Ticket costs €5,00": "Ticket costs €12,00");
+
