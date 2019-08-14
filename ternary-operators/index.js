@@ -26,3 +26,9 @@ const isStudent = 22;
 
 console.log((isStudent >= 18 && isStudent <= 25)? "Ticket costs €5,00": "Ticket costs €12,00");
 
+
+// 5. What time is it?
+
+const timeOfDay = 20;
+
+console.log((timeOfDay >= 6 && timeOfDay < 17)? "Good Morning": "Good Evening");
