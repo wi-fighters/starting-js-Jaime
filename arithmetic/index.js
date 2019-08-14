@@ -31,8 +31,8 @@ console.log(`Expected output: Score in the sixth test: ${(average * numberOfTest
 
 const finalAverage = 80;
 const finalAssessments = 9;
-const actualAverage = 78;
-const actualAssessments = 8;
+const currentAverage = 78;
+const currentAssessments = 8;
 
 console.log(`James needs a minimum of ${(finalAverage * finalAssessments) - (actualAverage * actualAssessments)}% to get an 80% average.`); // 96%
 
