@@ -38,3 +38,8 @@ console.log(`${jsWord.substring(3, 6)}`);
 const helloWorld = "Hello World";
 console.log(`${helloWorld.toUpperCase()}`);
 
+
+// 6
+
+const anotherWorld = "Hello Earthling";
+console.log(`${anotherWorld.toLowerCase()}`);
