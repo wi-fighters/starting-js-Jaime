@@ -17,8 +17,9 @@ console.log((speedCheck > maxSpeed)? "You're going too fast - slow down": "You'r
 // 3. How old are you?
 
 const personAge = 20;
+const minAge = 21;
 
-console.log((personAge < 21)? "Here's some juice": "Here's some wine");
+console.log((personAge < minAge)? "Here's some juice": "Here's some wine");
 
 
 // 4. Student Discount
