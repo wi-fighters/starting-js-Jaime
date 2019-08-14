@@ -63,3 +63,9 @@ console.log(`${firstString[0]}${firstString}${firstString[0]}`);
 console.log(`${firstString.substring(7)}${firstString}${firstString.substring(7)}`);
 
 
+// 10
+
+const computer = "ThinkPad";
+console.log(`${computer.toUpperCase()}`);
+console.log(`Does our string include the word Java? ${computer.includes("Java")}`);
+
