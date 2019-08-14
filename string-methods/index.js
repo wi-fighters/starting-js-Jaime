@@ -69,3 +69,9 @@ const computer = "ThinkPad";
 console.log(`${computer.toUpperCase()}`);
 console.log(`Does our string include the word Java? ${computer.includes("Java")}`);
 
+
+// 11
+
+const myString = "JavaScript";
+console.log(`${myString[myString.length - 1]}${myString.substring(1, myString.length - 1)}${myString[0]}`);
+
