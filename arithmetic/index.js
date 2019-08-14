@@ -106,7 +106,11 @@ console.log(`${totalAmount / priceTicket} people purchased a ticket.`); // 430 p
 
 // 7.2: Income per week
 
-constant income = 500
+const income = 500;
+const months = 52;
+
+console.log(`Silvia's income per year is ${income * months} dollars`); // 26000 dollars
+
 
 
 
