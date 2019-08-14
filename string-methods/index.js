@@ -32,3 +32,9 @@ console.log(`${park}`);
 const jsWord = "JavaScript";
 console.log(`${jsWord.substring(3, 6)}`);
 
+
+// 5
+
+const helloWorld = "Hello World";
+console.log(`${helloWorld.toUpperCase()}`);
+
