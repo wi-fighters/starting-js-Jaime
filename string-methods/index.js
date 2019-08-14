@@ -43,3 +43,13 @@ console.log(`${helloWorld.toUpperCase()}`);
 
 const anotherWorld = "Hello Earthling";
 console.log(`${anotherWorld.toLowerCase()}`);
+
+
+// 7
+
+const shoes = "nice shoes";
+console.log(`Does the string include a "l"? ${shoes.includes("l")}
+Does the string include a "n"? ${shoes.includes("n")}`);
+
+
+// 8
