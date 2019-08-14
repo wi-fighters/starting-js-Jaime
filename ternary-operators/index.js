@@ -31,4 +31,4 @@ console.log((isStudent >= 18 && isStudent <= 25)? "Ticket costs €5,00": "Ticke
 
 const timeOfDay = 20;
 
-console.log((timeOfDay >= 6 && timeOfDay < 17)? "Good Morning": "Good Evening");
+console.log((timeOfDay >= 6 && timeOfDay < 13)? "Good Morning": "Good Evening");
