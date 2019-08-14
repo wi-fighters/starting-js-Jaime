@@ -2,7 +2,7 @@
 
 const firstNumber = 17;
 const secondNumber = 30;
-const percentage = (firstNumber / secondNumber) / 100;
+const percentage = (firstNumber * 100) / secondNumber;
 
 console.log(`${percentage}%`); // 30 is 0,0056% of 17
 
