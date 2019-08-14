@@ -14,3 +14,10 @@ console.log(`The length of the string is: ${js.length} characters`);
 const letterJ = js[0];
 const letterS = js[4];
 console.log(`${letterJ} & ${letterS}`);
+
+
+// 3
+
+const sentence = "I can walk in the park all day!";
+console.log(`${sentence.substring(18, 22)}`);
+
