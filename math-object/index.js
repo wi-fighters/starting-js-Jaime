@@ -30,3 +30,11 @@ console.log(`Rounding up the given numbers: ${Math.ceil(numberOne)}, ${Math.ceil
 // 3.2 Round down
 
 console.log(`Rounding down the given numbers: ${Math.floor(numberOne)}, ${Math.floor(numberTwo)}, ${Math.floor(numberThree)}, ${Math.floor(numberFour)}, ${Math.floor(numberFive)}`);
+
+
+// 4. Dice Roll
+
+const minNum = Math.ceil(1);
+const maxNum = Math.floor(6);
+
+console.log(Math.floor(Math.random()*(maxNum - minNum + 1) + minNum));
