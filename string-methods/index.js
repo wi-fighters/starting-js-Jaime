@@ -78,11 +78,11 @@ console.log(
 
 // Create a variable and assign a string value to it. Then, convert the value to upper case and print the value to the console. Check whether it includes Java.
 
-const computer = "ThinkPad";
-console.log(`${computer.toUpperCase()}`);
+const computer = "ThinkPad"; // I declare a variable
+console.log(`${computer.toUpperCase()}`); // I transform the value of my variable into uppercase with the method ".toUpperCase()" and print it
 console.log(
   `Does our string include the word Java? ${computer.includes("Java")}`
-);
+); // With ${computer.includes("Java")} I "ask" the console if the word "Java" is inside my string. It returns "false" because the word "Java" is not within "Thinkpad"
 
 // 11. First and Last
 
