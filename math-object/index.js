@@ -1,3 +1,6 @@
+// 
+// You can check at the end of the document what I learnt from it!
+//
 // 1. Lowest Number
 
 const Peter = 28;
