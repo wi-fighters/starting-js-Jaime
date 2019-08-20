@@ -34,8 +34,8 @@ console.log(park); // I ask the console to print the variable "park" and it will
 
 // Declare a variable with the value JavaScript. Use string methods to print the the characters aSc from your declared variable.
 
-const jsWord = "JavaScript";
-console.log(`${jsWord.substring(3, 6)}`);
+const jsWord = "JavaScript"; // I declare a variable called jsWord with a string value: "JavaScript"
+console.log(`${jsWord.substring(3, 6)}`); // I use the method ".substring()" to extract from the 4th until the 6th character. Since we start counting from nill we get "aSc" because the index number 6 ("r") won't be included
 
 // 5. Upper Case
 
