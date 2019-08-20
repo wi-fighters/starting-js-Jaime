@@ -88,13 +88,13 @@ console.log(
 
 // Create a new string from a given string by changing the position of first and last characters. The string length must be greater than or equal to 2. Expected output: JavaScript => tavaScripJ
 
-const myString = "JavaScript";
+const myString = "JavaScript"; // I declare a variable and give it the value "JavaScript"
 console.log(
   `${myString[myString.length - 1]}${myString.substring(
     1,
     myString.length - 1
   )}${myString[0]}`
-);
+); // Bit by bit. First of all we will explain ${myString[myString.length - 1]}. "myString.length" returns the total number of characters of the variable (which are 10). That means "[myString.length - 1]" is the same than "10 - 1" (which is "9"). Once we get that, we can continue: ${myString[myString.length - 1]} is the same as writing ${myString[9]} and this means just extracting the 8th character of the string: "t" (don't forget we start counting from nill).
 
 // 12. Concatenation
 
