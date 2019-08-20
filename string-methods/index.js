@@ -94,7 +94,7 @@ console.log(
     1,
     myString.length - 1
   )}${myString[0]}`
-); // Bit by bit. First of all we will explain ${myString[myString.length - 1]}. "myString.length" returns the total number of characters of the variable (which are 10). That means "[myString.length - 1]" is the same than "10 - 1" (which is "9"). Once we get that, we can continue: ${myString[myString.length - 1]} is the same as writing ${myString[9]} and this means just extracting the 8th character of the string: "t" (don't forget we start counting from nill).
+); // Bit by bit. First of all we will explain ${myString[myString.length - 1]}. "myString.length" returns the total number of characters of the variable (which are 10). That means "[myString.length - 1]" is the same than "10 - 1" (which is "9"). Once we get that, we can continue: ${myString[myString.length - 1]} is the same as writing ${myString[9]} and this means just extracting the 8th character of the string: "t" (don't forget we start counting from nill). Same example here: ${myString.substring(1, myString.length - 1)}. "myString.length - 1" is equals to "10-1" (which is "9"). So it's the same as writing ${myString.substring(1, 9)} and this means we want to extract from the 2nd until the 8th character of the string because the 9th won't be included. This means it returns "avaScrip". ${myString[0]} just gets the very first character of the string, which is "J". So in the end, the console returns "tavaScripJ"
 
 // 12. Concatenation
 
