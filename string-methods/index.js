@@ -3,8 +3,8 @@
 // Declare a variable and assign a string as a value. Make sure that the string is at least six characters long. Print the length to the console. Access and print the 2nd and 6th elements of the string.
 
 const name = "Natalia"; // I declared a variable with the value "Natalia" (string)
-console.log(`Name length is ${name.length}`); // I print how many characters my string has: 7
-const secondElem = name[1]; // Here I look with index=1 for the second character of the string, since we start counting from nill, and declare a variable with that value
+console.log(`Name length is ${name.length}`); // I print with the property ".length" how many characters my string has: 7
+const secondElem = name[1]; // Here I look with index=1 for the second character of the string, since we start counting from nill (String indexes are zero-based), and declare a variable with that value
 const sixthElem = name[5]; // Here I look with index=5 for the sixth character of the string and declare a variable with that value
 console.log(`2nd element: ${secondElem}, 6th element: ${sixthElem}`); // I print both new variables
 
@@ -12,11 +12,11 @@ console.log(`2nd element: ${secondElem}, 6th element: ${sixthElem}`); // I print
 
 // Declare a variable and assign the value JavaScript to the variable. Print the length of the string to the console, then print the J & S characters to the console.
 
-const js = "JavaScript";
-console.log(`The length of the string is: ${js.length} characters`);
-const letterJ = js[0];
-const letterS = js[4];
-console.log(`${letterJ} & ${letterS}`);
+const js = "JavaScript"; // First of all I declare the variable js
+console.log(`The length of the string is: ${js.length} characters`); // I extract the total number of characters of the string with the property ".length"
+const letterJ = js[0]; // I declare a variable with the value of the first character of my string: "J" (since we start counting from nill)
+const letterS = js[4]; // I declare a variable with the value of the fifth character of my string: "S" (since we start counting from nill)
+console.log(`${letterJ} & ${letterS}`); // I print both variables within a string literal using string interpolation
 
 // 3. I can...
 
