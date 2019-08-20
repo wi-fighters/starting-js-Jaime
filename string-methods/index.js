@@ -63,8 +63,8 @@ Does the string include a "n"? ${shoes.includes("n")}`); // I use a string liter
 
 // Create a new string from a given string with the first character of the given string added at the front and back. Expected output: JavaScript => JJavaScriptJ
 
-const firstString = "JavaScript";
-console.log(`${firstString[0]}${firstString}${firstString[0]}`);
+const firstString = "JavaScript"; // I declare the variable
+console.log(`${firstString[0]}${firstString}${firstString[0]}`); // ${firstString[0]} extracts the first character of the value from my varible firstString, which is "J" (from "Javascript"). ${firstString} prints the whole value: "Javascript". ${firstString[0]} prints again just the first character of the value: "J". Everything together return "JJavascriptJ"
 
 // 9. Last Three Chars
 
