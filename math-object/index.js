@@ -38,7 +38,7 @@ console.log(`Rounding down the given numbers: ${Math.floor(numberOne)}, ${Math.f
 const minNum = Math.ceil(1);
 const maxNum = Math.floor(6);
 
-console.log(Math.floor(Math.random()*(maxNum - minNum + 1) + minNum));
+console.log(Math.floor(Math.random()*(maxNum) + minNum));
 
 // CONCEPTUAL UNDERSTANDING
 
