@@ -41,15 +41,15 @@ console.log(`${jsWord.substring(3, 6)}`); // I use the method ".substring()" to 
 
 // Declare a variable with the value of Hello World. Covert the value to upper case and print the converted value to the console.
 
-const helloWorld = "Hello World";
-console.log(helloWorld.toUpperCase());
+const helloWorld = "Hello World"; // I declare the variable
+console.log(helloWorld.toUpperCase()); // I use the method ".toUpperCase()" following the name of the variable in order to put the whole string in uppercase
 
 // 6. Lower Case
 
 // Declare another variable with the value of Hello Earthling. Convert the value to lower case and print the converted value to the console.
 
-const anotherWorld = "Hello Earthling";
-console.log(`${anotherWorld.toLowerCase()}`);
+const anotherWorld = "Hello Earthling"; // I declare the variable
+console.log(`${anotherWorld.toLowerCase()}`); // I use the method ".toLowerCase()" following the name of the variable in order to put the whole string in lowercase
 
 // 7. Does it contain...?
 
