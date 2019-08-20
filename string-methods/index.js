@@ -6,7 +6,7 @@ const name = "Natalia"; // I declared a variable with the value "Natalia" (strin
 console.log(`Name length is ${name.length}`); // I print with the property ".length" how many characters my string has: 7
 const secondElem = name[1]; // Here I look with index=1 for the second character of the string, since we start counting from nill (String indexes are zero-based), and declare a variable with that value
 const sixthElem = name[5]; // Here I look with index=5 for the sixth character of the string and declare a variable with that value
-console.log(`2nd element: ${secondElem}, 6th element: ${sixthElem}`); // I print both new variables
+console.log(`2nd element: ${secondElem}, 6th element: ${sixthElem}`); // I print both new variables in a "string literal" (which are strings and placeholders within backticks `.....`)
 
 // 2. JS
 
@@ -100,10 +100,10 @@ console.log(
 
 // Create 3 different variables about yourself using strings as values e.g.let firstName = "Maria".Print the sentence to the console using string interpolation. Example of output: `My name is Maria. I live in Berlin and I am a teacher`.
 
-const myName = "Jaime";
-const myCity = "Berlin";
-const myJob = "web developer";
-console.log(`My name is ${myName}. I live in ${myCity} and I am a ${myJob}.`);
+const myName = "Jaime"; // I declare the first variable
+const myCity = "Berlin"; // I declare the second variable
+const myJob = "web developer"; // I declare the third variable
+console.log(`My name is ${myName}. I live in ${myCity} and I am a ${myJob}.`); // I print a string with the values of my variables in placeholders within a string literal
 
 // 13. Capitalize
 
