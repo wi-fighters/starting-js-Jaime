@@ -25,7 +25,7 @@ const numberThree = 76788.7;
 const numberFour = -9.78;
 const numberFive = 43.342;
 
-console.log(`Rounding up the given numbers: ${Math.ceil(numberOne)}, ${Math.ceil(numberTwo)}, ${Math.ceil(numberThree)}, ${Math.ceil(numberFour)}, ${Math.round(numberFive)}`);
+console.log(`Rounding up the given numbers: ${Math.ceil(numberOne)}, ${Math.ceil(numberTwo)}, ${Math.ceil(numberThree)}, ${Math.ceil(numberFour)}, ${Math.ceil(numberFive)}`);
 
 
 // 3.2 Round down
