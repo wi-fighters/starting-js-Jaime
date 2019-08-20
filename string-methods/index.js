@@ -23,7 +23,7 @@ console.log(`${letterJ} & ${letterS}`);
 
 const sentence = "I can walk in the park all day!";
 const goal = sentence.includes("park");
-const park = (goal)? "park" : "keep trying";
+const park = goal? "park" : "keep trying";
 console.log(`${park}`);
 
 
@@ -36,7 +36,7 @@ console.log(`${jsWord.substring(3, 6)}`);
 // 5
 
 const helloWorld = "Hello World";
-console.log(`${helloWorld.toUpperCase()}`);
+console.log(helloWorld.toUpperCase());
 
 
 // 6
@@ -86,4 +86,6 @@ console.log(`My name is ${myName}. I live in ${myCity} and I am a ${myJob}.`);
 
 // 13
 
-
+const pangram = "the quick brown fox";
+console.log(`${pangram[0].toUpperCase()}${pangram.substr(1)}`);
+console.log(pangram[0].toUpperCase() + pangram.substr(1));
