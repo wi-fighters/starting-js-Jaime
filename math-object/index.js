@@ -1,6 +1,6 @@
-// 
+
 // You can check at the end of the document what I learnt from it!
-//
+
 // 1. Lowest Number
 
 const Peter = 28;
@@ -11,7 +11,6 @@ const Michael = 25;
 const friends = [Peter, John, Sarah, Hannah, Michael];
 
 console.log(`The youngest friend in the group is ${Math.min(...friends)} years old.`);
-
 
 
 // 2. Highest Number
@@ -43,6 +42,10 @@ const maxNum = Math.floor(6);
 
 console.log(Math.floor(Math.random()*(maxNum) + minNum));
 
+console.log(Math.ceil(Math.random()*maxNum));
+
+
+
 // CONCEPTUAL UNDERSTANDING
 
 // The goal of this exercise was to use string methods and string interpolation to complete the tasks.
@@ -53,6 +56,8 @@ console.log(Math.floor(Math.random()*(maxNum) + minNum));
 // What is a string interpolation?
 // It is a really useful programming language feature that allows you to inject variables directly into a string. Example: (`This is my ${variable}`)
 //
+//
+// In order to get a random number between, let's say 1 (as lowest number) and 6 (as the highest)
 //
 // SOMETHING NEW I LEARNT: extract the lowest or the highest number FROM A STRING using "..." + variable
 //
@@ -74,3 +79,4 @@ console.log(Math.floor(Math.random()*(maxNum) + minNum));
 // console.log(`The youngest friend in the group is ${(Math.min(...friends)).name} years old.`);
 //
 // but the console returned "undefined" in both of the cases.
+
