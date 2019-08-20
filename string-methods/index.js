@@ -72,7 +72,7 @@ console.log(`${firstString[0]}${firstString}${firstString[0]}`); // ${firstStrin
 
 console.log(
   `${firstString.substring(7)}${firstString}${firstString.substring(7)}`
-);
+); // I use the variable of the previous exercise. Bit by bit: with ${firstString.substring(7)} we want to extract from the 8th character of the string until the end ("ipt"). How? By asking for the index 7 (don't forget we start counting from nill). ${firstString} returns the whole string: "Javascript". ${firstString.substring(7)} will return again "ipt"
 
 // 10. Java
 
