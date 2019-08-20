@@ -2,11 +2,11 @@
 
 // Declare a variable and assign a string as a value. Make sure that the string is at least six characters long. Print the length to the console. Access and print the 2nd and 6th elements of the string.
 
-const name = "Natalia";
-console.log(`Name length is ${name.length}`);
-const secondElem = name[1];
-const sixthElem = name[5];
-console.log(`2nd element: ${secondElem}, 6th element: ${sixthElem}`);
+const name = "Natalia"; // I declared a variable with the value "Natalia" (string)
+console.log(`Name length is ${name.length}`); // I print how many characters my string has: 7
+const secondElem = name[1]; // Here I look with index=1 for the second character of the string, since we start counting from nill, and declare a variable with that value
+const sixthElem = name[5]; // Here I look with index=5 for the sixth character of the string and declare a variable with that value
+console.log(`2nd element: ${secondElem}, 6th element: ${sixthElem}`); // I print both new variables
 
 // 2. JS
 
