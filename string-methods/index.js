@@ -55,9 +55,9 @@ console.log(`${anotherWorld.toLowerCase()}`); // I use the method ".toLowerCase(
 
 // Check if the words nice shoes contains the letter l or n.
 
-const shoes = "nice shoes";
+const shoes = "nice shoes"; // I declare the variable
 console.log(`Does the string include a "l"? ${shoes.includes("l")}
-Does the string include a "n"? ${shoes.includes("n")}`);
+Does the string include a "n"? ${shoes.includes("n")}`); // I use a string literal to write a string and placeholders for the variables. I use the method ".includes()" to create a boolean by asking the console if the value ("nice shoes") of the variable "shoes" includes the letters "l" and "n". The console returns a "false" for the "l" but a true for the "n"
 
 // 8. Front & Back
 
