@@ -42,7 +42,15 @@ console.log(Math.floor(Math.random()*(maxNum - minNum + 1) + minNum));
 // CONCEPTUAL UNDERSTANDING
 
 // The goal of this exercise was to use string methods and string interpolation to complete the tasks.
+//
 // What is a string method?
 // They are properties that help you to work with strings. For example: variable.length, Math.ceil(), variable.includes("x") or variable.toUpperCase()
+//
 // What is a string interpolation?
 // It is a really useful programming language feature that allows you to inject variables directly into a string. Example: (`This is my ${variable}`)
+//
+// There is something I tried and didn't manage. In the 1st exercise I wanted to print the name of the variable with the lowest number. I tried like this:
+// console.log(`The youngest friend in the group is ${Math.min(...friends).name} years old.`);
+// and like this:
+// console.log(`The youngest friend in the group is ${(Math.min(...friends)).name} years old.`);
+// but the console returned "undefined" in both of the cases.
