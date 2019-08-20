@@ -25,10 +25,10 @@ console.log(`${letterJ} & ${letterS}`); // I print both variables within a strin
 // const sentence = "I can walk in the park all day!";
 // console.log(`${sentence.substring(18, 22)}`);
 
-const sentence = "I can walk in the park all day!";
-const goal = sentence.includes("park");
-const park = goal ? "park" : "keep trying";
-console.log(`${park}`);
+const sentence = "I can walk in the park all day!"; // I declare a variable with the value of the string that was given
+const goal = sentence.includes("park"); // I declare another variable. I use the method ".includes()" to create a boolean by "asking" the string "sentence" if the word "park" is inside it
+const park = goal ? "park" : "keep trying"; // I declare a variable whose value is a conditional ternary operator: if the string includes the word "park", print "park", if it doesn't, then print "keep trying"
+console.log(park); // I ask the console to print the variable "park" and it will return "true"
 
 //4. aSc
 
