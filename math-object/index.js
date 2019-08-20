@@ -38,3 +38,11 @@ const minNum = Math.ceil(1);
 const maxNum = Math.floor(6);
 
 console.log(Math.floor(Math.random()*(maxNum - minNum + 1) + minNum));
+
+// CONCEPTUAL UNDERSTANDING
+
+// The goal of this exercise was to use string methods and string interpolation to complete the tasks.
+// What is a string method?
+// They are properties that help you to work with strings. For example: variable.length, Math.ceil(), variable.includes("x") or variable.toUpperCase()
+// What is a string interpolation?
+// It is a really useful programming language feature that allows you to inject variables directly into a string. Example: (`This is my ${variable}`)
