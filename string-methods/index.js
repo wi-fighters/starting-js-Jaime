@@ -109,6 +109,6 @@ console.log(`My name is ${myName}. I live in ${myCity} and I am a ${myJob}.`); /
 
 // Declare a variable and assign the value the quick brown fox (lower case). Capitalize the first letter of that string.
 
-const pangram = "the quick brown fox";
-console.log(`${pangram[0].toUpperCase()}${pangram.substr(1)}`);
-console.log(pangram[0].toUpperCase() + pangram.substr(1));
+const pangram = "the quick brown fox"; // I declare a variable
+console.log(`${pangram[0].toUpperCase()}${pangram.substr(1)}`); // Bit by bit. First of all we will analyze ${pangram[0].toUpperCase()}. "pangram[0]" extracts the index 0 of our string, which means the first character of it: "t" (since we start counting from nill). Then we add ".toUpperCase()" in order to convert the "t" into "T". After that we go for ${pangram.substr(1)} which will return all the characters between the 2nd character of the string and the end of it (since we didn't write a second number telling the console where to stop). This returns "he quick brown fox". And both values together will return "The quick brown fox"
+console.log(pangram[0].toUpperCase() + pangram.substr(1)); // This is another way to do the same thing. We can just concatenate both values in order not to create a string literal between backticks `.....`
