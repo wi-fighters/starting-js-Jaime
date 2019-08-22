@@ -6,7 +6,7 @@ const name = "Natalia"; // I declared a variable with the value "Natalia" (strin
 console.log(`Name length is ${name.length}`); // I print with the property ".length" how many characters my string has: 7
 const secondElem = name[1]; // Here I look with index=1 for the second character of the string, since we start counting from nill (String indexes are zero-based), and declare a variable with that value
 const sixthElem = name[5]; // Here I look with index=5 for the sixth character of the string and declare a variable with that value
-console.log(`2nd element: ${secondElem}, 6th element: ${sixthElem}`); // I print both new variables in a "string literal" (which are strings and placeholders within backticks `.....`)
+console.log(`2nd element: ${secondElem}, 6th element: ${sixthElem}`); // I print both new variables in a "template's literal" (which are strings and placeholders within backticks `.....`)
 
 // 2. JS
 
@@ -16,7 +16,7 @@ const js = "JavaScript"; // First of all I declare the variable js
 console.log(`The length of the string is: ${js.length} characters`); // I extract the total number of characters of the string with the property ".length"
 const letterJ = js[0]; // I declare a variable with the value of the first character of my string: "J" (since we start counting from nill)
 const letterS = js[4]; // I declare a variable with the value of the fifth character of my string: "S" (since we start counting from nill)
-console.log(`${letterJ} & ${letterS}`); // I print both variables within a string literal using string interpolation
+console.log(`${letterJ} & ${letterS}`); // I print both variables within a template's literal using string interpolation
 
 // 3. I can...
 
