@@ -16,7 +16,6 @@
  **/
 
 function tellFortune(numberOfChildren, partnerName, geoLocation, jobTitle) {
-
     return `You will be a ${jobTitle} in ${geoLocation}, and married to ${partnerName} with ${numberOfChildren} kids.`;
 }
 
