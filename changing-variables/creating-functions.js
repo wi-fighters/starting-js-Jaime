@@ -61,3 +61,21 @@ function schmozzling(x, y) {
 }
 
 console.log(schmozzling("Schm", name));
+
+//-----------------------------------
+// Exercise 9 with a function:
+
+function getCoffeeInfo(daysUntilExam, myName) {
+
+    const cups = 0;
+
+    if (daysUntilExam >= 5) {
+        return `What exam?`;
+    } else if (daysUntilExam < 5) {
+        return `With ${daysUntilExam--} days until the exam, ${myName} drinks ${cups++} cups of coffee per day.`
+    }
+
+
+}
+
+console.log(getCoffeeInfo(4, "Jaime"));
