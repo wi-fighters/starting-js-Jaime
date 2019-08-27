@@ -4,6 +4,6 @@ function calculateSupply(age, amountPerDay) {
     return `You will need ${lifeAmount} Kit-Kats to last you until the ripe old age of ${deathAge}.`
 }
 
-console.log(calculateSupply(31, 3));
-console.log(calculateSupply(52, 2));
-console.log(calculateSupply(98, 1));
+console.log(calculateSupply(31, 3.1));
+console.log(calculateSupply(52, 2.9));
+console.log(calculateSupply(98, 1.6));
