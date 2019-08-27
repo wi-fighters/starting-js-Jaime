@@ -1,11 +1,11 @@
-function calcCircumfrence(radius) {
+const pi = 3.14;
 
-    return `The circumfrence is NN cm.`
+function calcCircumfrence(radius) {
+    return `The circumfrence is ${radius * pi} cm.`
 }
 
 function calcArea(radius) {
-
-    return `The area is NN cm².`
+    return `The area is ${radius * radius * pi} cm².`
 }
 
 console.log(calcCircumfrence(5));
