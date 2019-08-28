@@ -8,5 +8,12 @@ function newBand(fruit, car) {
     return `${fruitUpperCase} ${carUppercase}`;
 }
 
-console.log(myArrayStore.push(newBand("orange", "peugeot")));
+console.log(myArrayStore.unshift(newBand("banana", "peugeot")));
 console.log(myArrayStore);
+
+console.log(myArrayStore.unshift(newBand("strawberry", "opel")));
+console.log(myArrayStore);
+
+console.log(myArrayStore.unshift(newBand("orange", "mercedes")));
+console.log(myArrayStore);
+
