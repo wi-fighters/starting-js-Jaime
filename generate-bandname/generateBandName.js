@@ -1,9 +1,4 @@
-function createBand(clothing, lastFoodEaten) {
-    return `The name of our band is "The ${clothing} ${lastFoodEaten}"!`;
-}
-
-console.log(createBand("shirt", "peaches"));
-
+// Every time the function is called, it should store the result in a global array (and still return it like before)
 
 function newBand(fruit, car) {
     const fruitUpperCase = fruit[0].toUpperCase() + fruit.substring(1);
