@@ -68,8 +68,8 @@ console.log(verbing("go"));
 
 function notBad(myEvaluation) {
 
-    var notBadWithDot = myEvaluation.substring(myEvaluation.indexOf("not"), myEvaluation.length - 1);
-    var notBadWithoutDot = myEvaluation.substring(myEvaluation.indexOf("not"), myEvaluation.length);
+    var notBadWithDot = myEvaluation.substring(myEvaluation.lastIndexOf("not"), myEvaluation.length - 1);
+    var notBadWithoutDot = myEvaluation.substring(myEvaluation.lastIndexOf("not"), myEvaluation.length);
 
     if (myEvaluation.includes("not") && myEvaluation.includes("bad") && myEvaluation.includes(".")) {
         return myEvaluation.replace(notBadWithDot, "good");
@@ -81,3 +81,5 @@ function notBad(myEvaluation) {
 }
 
 console.log(notBad("This beer is not that bad."));
+console.log(notBad("not drinking Coke is not that bad"));
+console.log(notBad("This beer is awesome!"));
