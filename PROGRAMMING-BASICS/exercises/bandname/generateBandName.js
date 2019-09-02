@@ -1,5 +1,5 @@
 
-// Return a string that represents the resulting band name, with every first letter as a capital.
+// EXERCISE 1: Return a string that represents the resulting band name, with every first letter as a capital.
 
 function newBand(fruit, car) {
 
@@ -11,7 +11,7 @@ function newBand(fruit, car) {
 console.log(`The name of our rockband is ${newBand("banAna", "peugEot")}`);
 
 
-// NOW... Every time the function is called, it should store the result in a global array (and still return it like before)
+// EXERCISE 2: NOW... Every time the function is called, it should store the result in a global array (and still return it like before)
 
 const myArrayStore = [];
 
