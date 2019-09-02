@@ -1,19 +1,25 @@
-// Every time the function is called, it should store the result in a global array (and still return it like before)
 
-const myArrayStore = [];
+// Return a string that represents the resulting band name, with every first letter as a capital.
 
 function newBand(fruit, car) {
-    const fruitUpperCase = fruit[0].toUpperCase() + fruit.substring(1);
-    const carUppercase = car[0].toUpperCase() + car.substring(1);
+
+    const fruitUpperCase = fruit[0].toUpperCase() + fruit.substring(1).toLowerCase();
+    const carUppercase = car[0].toUpperCase() + car.substring(1).toLowerCase();
     return `${fruitUpperCase} ${carUppercase}`;
 }
 
-console.log(myArrayStore.unshift(newBand("banana", "peugeot")));
+console.log(`The name of our rockband is ${newBand("banAna", "peugEot")}`);
+
+
+// NOW... Every time the function is called, it should store the result in a global array (and still return it like before)
+
+const myArrayStore = [];
+
+console.log(myArrayStore.unshift(newBand("banaNA", "pEUgeot")));
 console.log(myArrayStore);
 
-console.log(myArrayStore.unshift(newBand("strawberry", "opel")));
+console.log(myArrayStore.unshift(newBand("strawBErRy", "OPel")));
 console.log(myArrayStore);
 
-console.log(myArrayStore.unshift(newBand("orange", "mercedes")));
+console.log(myArrayStore.unshift(newBand("orAnge", "mercEDes")));
 console.log(myArrayStore);
-
