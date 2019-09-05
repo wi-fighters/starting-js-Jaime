@@ -1,11 +1,11 @@
 # Math
 
 
-- Math works only with numbers and it's used to perform mathematical operations
+- Math works **only with numbers** and it's used to perform mathematical operations
 
 - It's a **static function** because there is no **return** inside it
 
-- It's like a method but without following any object after a `.` (dot). And it needs an argument inside the parenthesis)
+- It's like a method but without following any object after a `.` (dot). And it needs an argument inside the parenthesis()
 
 Types of numbers:
 
