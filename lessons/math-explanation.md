@@ -31,7 +31,7 @@ Types of numbers:
         returns a 1
 
 
-## Math.ceil(*value)
+## Math.ceil(*value*)
 
 - Returns the smallest integer greater than, or equal to, its argument. For example:
 
@@ -49,7 +49,7 @@ Types of numbers:
         returns a 2
 
 
-## Math.min(*value1* , *value2*, *value3*, ...)
+## Math.min(*value1*, *value2*, *value3*, ...)
 
 - Returns the lesser of its two arguments. For example:
 
@@ -58,7 +58,7 @@ Types of numbers:
         returns 12
 
 
-## Math.max(*value1* , *value2*, *value3*, ...)
+## Math.max(*value1*, *value2*, *value3*, ...)
 
 - Returns the greater of its two arguments. For example:
 
