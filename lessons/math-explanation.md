@@ -3,8 +3,6 @@
 
 - Math works **only with numbers** and it's used to perform mathematical operations
 
-- It's a **static function** because there is no **return** inside it
-
 - It's like a method but without following any object after a `.` (dot). And it needs an argument inside the parenthesis()
 
 Types of numbers:
@@ -33,7 +31,7 @@ Types of numbers:
 
 ## Math.ceil(*value*)
 
-- Returns the smallest integer greater than, or equal to, its argument. For example:
+- Returns always the highest integer. For example:
 
     `Math.ceil(1.01)`
 
@@ -42,7 +40,7 @@ Types of numbers:
 
 ## Math.floor(*value*)
 
-- Returns the integer less than, or equal to, its argument. For example:
+- Returns always the lowest integer. For example:
 
     `Math.floor(2.99)`
 
@@ -51,7 +49,7 @@ Types of numbers:
 
 ## Math.min(*value1*, *value2*, *value3*, ...)
 
-- Returns the lesser of its two arguments. For example:
+- Returns the lesser of its arguments. For example:
 
     `Math.min(12,350)`
 
@@ -60,7 +58,7 @@ Types of numbers:
 
 ## Math.max(*value1*, *value2*, *value3*, ...)
 
-- Returns the greater of its two arguments. For example:
+- Returns the greater of its arguments. For example:
 
     `Math.max(12,350)`
 
