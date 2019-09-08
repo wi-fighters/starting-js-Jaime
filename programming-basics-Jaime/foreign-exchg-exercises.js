@@ -40,23 +40,23 @@ function convertFromEur(amount, curr) {
 function getJpyFromEur(amount) {
   // 1 EUR = 116.402 JPY
   const rate = 116.402;
-  return rounding(amount * rate);
+  return rounding(amount * rate) * 100;
 }
 
 const getAudFromEur = function (amount) {
   // 1 EUR = 1.62072 AUD
   const rate = 1.62072;
-  return rounding(amount * rate);
+  return rounding(amount * rate) * 100;
 };
 
 const getChfFromEur = (amount) => {
   // 1 EUR = 1.08329 CHF
   const rate = 1.08329;
-  return rounding(amount * rate);
+  return rounding(amount * rate) * 100;
 };
 
 function rounding(number) {
   return number.toFixed(2);
 }
 
-console.log(convertFromEur(100, 'JPY'));
+console.log(convertFromEur(100, 'CHF') / 100);
