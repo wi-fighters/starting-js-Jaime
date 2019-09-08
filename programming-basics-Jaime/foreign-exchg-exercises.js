@@ -23,6 +23,7 @@
 // as the last step just before returning it
 // Further reading: http://adripofjavascript.com/blog/drips/avoiding-problems-with-decimal-math-in-javascript.html
 
+
 function convertFromEur(amount, curr) {
   switch (curr) {
     case 'JPY':
@@ -34,25 +35,24 @@ function convertFromEur(amount, curr) {
     default:
       return 'The requested currency is not available. Please enter JPY, AUD or CHF';
   }
-  // Test yourself: What do you usually see in switch statements that is not here? What is its job, and why is it not here?
 }
 
 function getJpyFromEur(amount) {
   // 1 EUR = 116.402 JPY
   const rate = 116.402;
-  return amount * rate;
+  return (amount * rate).toFixed(2);
 }
 
 const getAudFromEur = function (amount) {
   // 1 EUR = 1.62072 AUD
   const rate = 1.62072;
-  return amount * rate;
+  return (amount * rate).toFixed(2);
 };
 
 const getChfFromEur = (amount) => {
   // 1 EUR = 1.08329 CHF
   const rate = 1.08329;
-  return amount * rate;
+  return (amount * rate).toFixed(2);
 };
 
-console.log(convertFromEur(100, 'JPY'));
+console.log(convertFromEur(100, 'AUD'));
