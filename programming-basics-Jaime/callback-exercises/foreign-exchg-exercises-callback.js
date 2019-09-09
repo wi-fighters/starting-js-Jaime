@@ -13,7 +13,7 @@ function convertFromEur(amount, curr, converting) {
             result = getChfFromEur(amount);
             break;
         default:
-            result = 'The requested currency is not available. Please enter JPY, AUD or CHF';
+            return 'The requested currency is not available. Please enter JPY, AUD or CHF';
     }
     return converting(result);
 }
@@ -40,4 +40,4 @@ const rounding = (number) => {
     return number.toFixed(2);
 }
 
-console.log(convertFromEur(100, 'JPY', rounding));
+console.log(convertFromEur(100, 'CAD', rounding));
