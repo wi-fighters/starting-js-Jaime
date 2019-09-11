@@ -1,22 +1,22 @@
-function mathematic() {
-    let number = 0;
+function mathematic() { // this is my 'mathematic' function declaration
+    let number = 0; // it stores a variable that starts with the value '0'
 
-    function addOne() {
+    function addOne() { // the function addOne() is going to add 1 to the actual value of number and return it
         number += 1;
         return number;
     }
 
-    function substractOne() {
+    function substractOne() { // the function substractOne() is going to substract 1 to the actual value of number and return it
         number -= 1;
         return number;
     }
 
-    let options = [addOne, substractOne];
+    let options = [addOne, substractOne]; // the variable operation has 2 function expressions inside its array
 
-    return options;
+    return options; // the return of mathematic() is an array. So when we call it from the outside we have to decide first which of them are we going to run (using index)
 }
 
-let operation = mathematic();
+let operation = mathematic(); // I create a variable called operation and give it the value of mathematic(), which is equal to its return: [function: addOne, function: substractOne]
 
 console.log(operation); // this is just going to print the value of 'operation', which is the value of 'options': an array which contains 2 function expressions
 
