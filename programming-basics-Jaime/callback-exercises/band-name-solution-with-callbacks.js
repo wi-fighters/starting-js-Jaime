@@ -79,24 +79,17 @@
 
 myGlobalArray = [];
 
-console.log(`The name of our rockband is The ${generateBandName("yeLLow", "MUEsli")}!`);
-console.log(myGlobalArray);
-console.log(`The name of our rockband is The ${generateBandName("rEd", "strawBErRy")}!`);
-console.log(myGlobalArray);
-console.log(`The name of our rockband is The ${generateBandName("orANge", "SPagheTTi")}!`);
-console.log(myGlobalArray);
+const generateBandName = (clothingColor, lastFoodEaten, beautifying, capitalizing) => {
 
-function generateBandName(clothingColor, lastFoodEaten) {
-
-    const color = makeTasty(capitalizeInitial(clothingColor));
-    const food = capitalizeInitial(lastFoodEaten);
+    const color = beautifying(capitalizing(clothingColor));
+    const food = capitalizing(lastFoodEaten);
 
     myGlobalArray.unshift(`${color} ${food}`);
 
     return `${color} ${food}`;
 }
 
-function makeTasty(color) {
+const makeTasty = (color, capitalizing) => {
     tastyColor = "";
     color = capitalizeInitial(color);
     switch (color) {
@@ -124,8 +117,14 @@ function makeTasty(color) {
     return capitalizeInitial(tastyColor);
 }
 
-function capitalizeInitial(rawString) {
+const capitalizeInitial = (rawString) => {
 
     return rawString[0].toUpperCase() + rawString.substring(1).toLowerCase();
 }
 
+console.log(`The name of our rockband is The ${generateBandName("yeLLow", "MUEsli", makeTasty, capitalizeInitial)}!`);
+console.log(myGlobalArray);
+console.log(`The name of our rockband is The ${generateBandName("rEd", "strawBErRy", makeTasty, capitalizeInitial)}!`);
+console.log(myGlobalArray);
+console.log(`The name of our rockband is The ${generateBandName("orANge", "SPagheTTi", makeTasty, capitalizeInitial)}!`);
+console.log(myGlobalArray);
