@@ -9,5 +9,5 @@ function init() {
     return create;
 }
 
-
+const createInDb = init();
 
