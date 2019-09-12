@@ -25,6 +25,4 @@ createInDb[0]("Butter");
 createInDb[0]("Ham");
 createInDb[0]("Cheese");
 
-console.log(createInDb[0]());
-
 console.log(createInDb[1]());
