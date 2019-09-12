@@ -3,8 +3,9 @@ const init = () => {
 
     const create = (paramOne) => {
         db.push(paramOne);
+        const dbArrayLength = db.length;
 
-        return db.length;
+        return `New element added! The new length of the array is ${dbArrayLength}`;
     };
 
     const read = () => {
