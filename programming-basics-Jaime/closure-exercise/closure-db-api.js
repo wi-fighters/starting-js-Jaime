@@ -1,15 +1,15 @@
-function init() {
+const init = () => {
     let api = [];
 
-    function create(paramOne) {
+    let create = (paramOne) => {
         api.push(paramOne);
 
         return api;
-    }
+    };
 
     api.push(create);
     return create;
-}
+};
 
 const createInDb = init();
 console.log(createInDb("Bread"));
