@@ -1,11 +1,13 @@
 function init() {
-    let db = [];
+    let api = [];
 
     function create(paramOne) {
-        db.push(paramOne);
-        return db.length;
+        api.push(paramOne);
+
+        return api;
     }
 
+    api.push(create);
     return create;
 }
 
