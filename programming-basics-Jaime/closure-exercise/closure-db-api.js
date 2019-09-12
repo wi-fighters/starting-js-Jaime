@@ -1,18 +1,33 @@
 const init = () => {
-    let api = [];
+    let db = [];
 
-    let create = (paramOne) => {
-        api.push(paramOne);
+    const create = (paramOne) => {
+        db.push(paramOne);
 
-        return api;
+        return db.length;
     };
 
+    const read = () => {
+        let dbCopy = [...db];
+
+        return dbCopy;
+    };
+
+    let api = [];
+
     api.push(create);
-    return create;
+    api.push(read);
+
+    return api;
 };
 
 const createInDb = init();
-console.log(createInDb("Bread"));
-console.log(createInDb("Butter"));
-console.log(createInDb("Ham"));
-console.log(createInDb("Cheese"));
+
+createInDb[0]("Bread");
+createInDb[0]("Butter");
+createInDb[0]("Ham");
+createInDb[0]("Cheese");
+
+console.log(createInDb[0]());
+
+console.log(createInDb[1]());
