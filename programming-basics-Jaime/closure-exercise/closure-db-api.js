@@ -19,7 +19,7 @@ const init = () => {
         if (index >= 0 && index <= dbLength) {
             db[index] = newElement;
         } else {
-            return "ERROR!!!";
+            return create(newElement);
         }
 
         return db;
