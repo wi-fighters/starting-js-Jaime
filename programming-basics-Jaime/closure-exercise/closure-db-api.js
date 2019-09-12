@@ -13,10 +13,7 @@ const init = () => {
         return dbCopy;
     };
 
-    let api = [];
-
-    api.push(create);
-    api.push(read);
+    let api = [create, read];
 
     return api;
 };
