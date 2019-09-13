@@ -15,6 +15,7 @@ const init = () => {
     };
 
     const update = (index, newElement) => {
+        const oldElement = db[index];
 
         if (index >= 0 && index <= (db.length - 1)) {
             db[index] = newElement;
@@ -22,10 +23,11 @@ const init = () => {
             return create(newElement);
         }
 
-        return db;
+        return `You changed the item ${oldElement} for ${newElement}.`;
     };
 
     const remove = (deleteIndex) => {
+        const deletedItem = db[deleteIndex];
 
         if (deleteIndex >= 0 && deleteIndex <= (db.length - 1)) {
             db.splice(deleteIndex, 1);
@@ -33,7 +35,7 @@ const init = () => {
             return `ERROR!!!`;
         }
 
-        return db;
+        return `You deleted one item: ${deletedItem}.`;
     };
 
     let api = [create, read, update, remove];
