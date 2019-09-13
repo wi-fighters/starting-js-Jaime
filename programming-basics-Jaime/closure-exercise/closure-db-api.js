@@ -1,6 +1,5 @@
 const init = () => {
     let db = [];
-    let dbLength = db.length - 1;
 
     const create = (paramOne) => {
         db.push(paramOne);
@@ -17,7 +16,7 @@ const init = () => {
 
     const update = (index, newElement) => {
 
-        if (index >= 0 && index <= dbLength) {
+        if (index >= 0 && index <= (db.length - 1)) {
             db[index] = newElement;
         } else {
             return create(newElement);
