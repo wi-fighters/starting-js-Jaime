@@ -2,7 +2,7 @@ const myWord = ["L", "O", "O", "P"];
 const yourGuess = ["_", "_", "_", "_"];
 
 const guessLetter = (letter) => {
-    let answer;
+    let answer = "";
 
     letter = letter.toLocaleLowerCase();
 
