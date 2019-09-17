@@ -32,15 +32,53 @@
 
 // 3.Capitalize. Create a program that capitalizes the first letter of each element in an array of names, using a do while loop
 
-const myCities = ["maDriD", "MáLaGa", "bilBao", "barCElona", "sEviLLa", "graNada"];
+// const myCities = ["maDriD", "MáLaGa", "bilBao", "barCElona", "sEviLLa", "graNada"];
+// let i = 0;
+
+// console.log(myCities);
+
+// do {
+//     myCities[i] = myCities[i][0].toLocaleUpperCase() + myCities[i].substring(1).toLocaleLowerCase();;
+//     ++i;
+// }
+// while (i < myCities.length)
+
+// console.log(myCities);
+
+// 4. No Duplicates! A set is a collection of unique items. A set can be formed from an array by removing all duplicate items. Create a program which transforms an array into a set of unique values using a do while loop. See the examples below. 
+
+// const myNumbers = [1, 1, 23, 5, 5, 34, 3, 3, 3];
+// let i = 0;
+// let uniqueItems = [];
+
+// do {
+
+//     if (myNumbers.includes(myNumbers[i])) {
+//         uniqueItems.push();
+//     }
+
+//     ++i;
+// }
+// while (i < myNumbers.length)
+
+// console.log(uniqueItems);
+
+
+// 5. Repeat it. Create a program with two variables: "item" and "times". Create a program that repeats the "item" as many times as specified by "times". The first variable ("item") is the item that needs repeating while the second argument ("times") is the number of times the item is to be repeated. Print the result in an array.
+
+const repeatedItem = [];
 let i = 0;
 
-console.log(myCities);
+const program = (item, times) => {
 
-do {
-    myCities[i] = myCities[i][0].toLocaleUpperCase() + myCities[i].substring(1).toLocaleLowerCase();;
-    ++i;
+    do {
+        repeatedItem.push(item);
+        ++i;
+    }
+    while (i < times);
+
+
+    return repeatedItem;
 }
-while (i < myCities.length)
 
-console.log(myCities);
+console.log(program("Hello", 5));
