@@ -2,9 +2,48 @@
 
 // 1. Run Along. Create a while loop that runs as long as i is less than 15.
 
-let i = 0;
+// let i = 0; // 15
 
-while (i < 15) {
+// while (i < 15) {
+//     ++i;
+//     console.log(`Number ${i}`);
+// }
+
+// 2. City Names. Create an array of city names. Loop through the array and add the city names to a string. Example of expected output: "Berlin, Paris, Prague, Rome".
+
+const cityNames = ["Madrid", "Málaga", "Bilbao", "Barcelona", "Sevilla", "Granada"];
+let i = 0;
+let myCities = "";
+let comma = ", ";
+
+while (i < cityNames.length) {
+
+    myCities += cityNames[i] + comma;
     ++i;
-    console.log(i);
 }
+
+console.log(myCities);
+
+
+// 3. Odds and Evens. Create a program that changes a given array by adding 1 to each odd integer and subtracting 1 from each even integer. 
+
+// let myArray = [1, 2, 3, 4, 5];
+// let i = 0;
+// let number = myArray[i];
+
+// console.log(myArray);
+
+// while (i < myArray.length) {
+
+//     if (number % 2 === 0) {
+//         number = number - 1;
+
+//     } else {
+//         number = number + 1;
+//     }
+
+//     return number
+
+
+//     ++i;
+// }
