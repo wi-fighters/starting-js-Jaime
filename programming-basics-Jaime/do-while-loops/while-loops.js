@@ -17,12 +17,13 @@ let myCities = "";
 
 while (i < cityNames.length) {
 
-    if (i === cityNames.length - 1) {
-        myCities += cityNames[i];
-    }
-    else if (i < cityNames.length - 1) {
+    if (i < cityNames.length - 1) {
         myCities += cityNames[i] + ", ";
     }
+    else if (i === cityNames.length - 1) {
+        myCities += cityNames[i];
+    }
+
     ++i;
 }
 
