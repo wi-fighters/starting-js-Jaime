@@ -11,37 +11,41 @@
 
 // 2. City Names. Create an array of city names. Loop through the array and add the city names to a string. Example of expected output: "Berlin, Paris, Prague, Rome".
 
-// const cityNames = ["Madrid", "Málaga", "Bilbao", "Barcelona", "Sevilla", "Granada"];
-// let i = 0;
-// let myCities = "";
-// let comma = ", ";
+const cityNames = ["Madrid", "Málaga", "Bilbao", "Barcelona", "Sevilla", "Granada"];
+let i = 0;
+let myCities = "";
 
-// while (i < cityNames.length) {
+while (i < cityNames.length) {
 
-//     myCities += cityNames[i] + comma;
-//     ++i;
-// }
+    if (i === cityNames.length - 1) {
+        myCities += cityNames[i];
+    }
+    else if (i < cityNames.length - 1) {
+        myCities += cityNames[i] + ", ";
+    }
+    ++i;
+}
 
-// console.log(myCities);
+console.log(myCities);
 
 
 // 3. Odds and Evens. Create a program that changes a given array by adding 1 to each odd integer and subtracting 1 from each even integer. 
 
-let myArray = [1, 2, 3, 4, 5];
-let i = 0;
+// let myArray = [1, 2, 3, 4, 5];
+// let i = 0;
 
-console.log(myArray);
+// console.log(myArray);
 
-while (i < myArray.length) {
+// while (i < myArray.length) {
 
-    if (myArray[i] % 2 === 0) {
-        myArray[i] -= 1;
+//     if (myArray[i] % 2 === 0) {
+//         myArray[i] -= 1;
 
-    } else {
-        myArray[i] += 1;
-    }
+//     } else {
+//         myArray[i] += 1;
+//     }
 
-    ++i;
-}
+//     ++i;
+// }
 
-console.log(myArray);
+// console.log(myArray);
