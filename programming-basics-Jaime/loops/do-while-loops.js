@@ -17,15 +17,30 @@
 
 // 2. Add it up! Create a program that adds numbers from 1-20 together using a while loop.
 
-let myNumber = 0;
+// let myNumber = 0;
+// let i = 0;
+
+// do {
+//     ++i;
+//     myNumber += i;
+
+// }
+// while (i < 20)
+
+// console.log(myNumber);
+
+
+// 3.Capitalize. Create a program that capitalizes the first letter of each element in an array of names, using a do while loop
+
+const myCities = ["maDriD", "MáLaGa", "bilBao", "barCElona", "sEviLLa", "graNada"];
 let i = 0;
 
+console.log(myCities);
+
 do {
+    myCities[i] = myCities[i][0].toLocaleUpperCase() + myCities[i].substring(1).toLocaleLowerCase();;
     ++i;
-    myNumber += i;
-
 }
-while (i < 20)
+while (i < myCities.length)
 
-console.log(myNumber);
-
+console.log(myCities);
