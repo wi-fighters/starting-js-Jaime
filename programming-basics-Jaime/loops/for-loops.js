@@ -77,6 +77,22 @@ console.log(`\nExercise 4: multiplication`)
 multiplication();
 
 
+// 4. Bonus: Use a nested for loop to show the tables for every multiplier from 1 to 10 (100 results total).
+
+const multiplicationBonus = () => {
+    total = 0;
+    for (let i = 1; i <= 10; ++i) {
+
+        for (let x = 0; x <= 10; ++x) {
+            total = i * x;
+            console.log(`${i} * ${x} = ${total}`)
+        }
+    }
+};
+console.log(`\nExercise 4: multiplication`)
+multiplicationBonus();
+
+
 // 5. Grades. Write a program to calculate the average mark of the following grades: 90, 60, 77, 81, 65.
 
 const averageMark = () => {
@@ -113,3 +129,7 @@ const fizzBuzz = () => {
 };
 console.log(`\nExercise 6: Fizz Buzz`)
 fizzBuzz();
+
+
+// 7. Sum of Multiples Write a program to add the multiples of 3 and 5 under 1000.
+
