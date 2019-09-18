@@ -45,3 +45,21 @@ const beerBottles = () => {
 };
 console.log(`\nExercise 2: beer bottles`)
 beerBottles();
+
+
+// 3. The odd/even reporter. Write a program that will iterate from 0 to 20. For each iteration, it will check if the current number is even or odd, and report that to the screen (e.g. "2 is even").
+
+const oddOrEven = () => {
+    let number = 0;
+
+    for (let i = 0; i < 20; ++i) {
+        number += 1;
+        if (number % 2 === 0) {
+            console.log(`The number ${number} is even`)
+        } else {
+            console.log(`The number ${number} is odd`)
+        }
+    }
+}
+console.log(`\nExercise 3: odd or even reporter`)
+oddOrEven();
