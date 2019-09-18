@@ -157,3 +157,31 @@ const names = () => {
 };
 console.log(`\nExercise 8: Family and friend names`)
 names();
+
+
+// 8. BONUS: Print the indexes of each item in the array. Expected output example: Mike is at index 1 of my friends array.
+
+const namesBonus = () => {
+    let myNames = ["Silvia", "Juan", "Blanca", "Katja", "Javi"];
+
+    for (i = 0; i < myNames.length; ++i) {
+        console.log(`${myNames[i]} is at index ${i} of myNames array`);
+    }
+};
+console.log(`\nExercise 8: Family and friend names`)
+namesBonus();
+
+
+// // 9. Write programs that produce the following outputs:
+// // 100 200 300 400 500 600 700 800 900 1000
+// // 1 2 4 8 16 32 64 128
+// // 0 2 4 6 8 10
+// // 3 6 9 12 15
+// // 9 8 7 6 5 4 3 2 1 0
+
+// const myChains = () => {
+
+
+// };
+// console.log(`\nExercise 9: Family and friend names`)
+// myChains();
