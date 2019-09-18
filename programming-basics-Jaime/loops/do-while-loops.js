@@ -32,17 +32,17 @@
 
 // 3.Capitalize. Create a program that capitalizes the first letter of each element in an array of names, using a do while loop
 
-const myCities = ["maDriD", "MáLaGa", "bilBao", "barCElona", "sEviLLa", "graNada"];
-let i = 0;
+// const myCities = ["maDriD", "MáLaGa", "bilBao", "barCElona", "sEviLLa", "graNada"];
+// let i = 0;
 
-console.log(myCities);
+// console.log(myCities);
 
-do {
-    myCities[i] = myCities[i][0].toLocaleUpperCase() + myCities[i].substring(1).toLocaleLowerCase();
-    ++i;
-} while (i < myCities.length);
+// do {
+//     myCities[i] = myCities[i][0].toLocaleUpperCase() + myCities[i].substring(1).toLocaleLowerCase();
+//     ++i;
+// } while (i < myCities.length);
 
-console.log(myCities);
+// console.log(myCities);
 
 // 4. No Duplicates! A set is a collection of unique items. A set can be formed from an array by removing all duplicate items. Create a program which transforms an array into a set of unique values using a do while loop. See the examples below. 
 
@@ -88,23 +88,24 @@ console.log(myCities);
 // Create a program that determines whether or not a given array is a factor chain using a do while loop.
 
 
-// const factorNumbers = [3, 7, 12, 36];
-// let i = 0;
-// let answer = "";
+const factorNumbers = [3, 6, 12, 35];
+let i = 0;
+let total = "";
+let answer = "";
 
-// const myOperation = (itemOne, itemTwo) => {
-//     return itemTwo % itemOne === 0;
-// };
+const myOperation = (itemOne, itemTwo) => { // 3, 7
+    return itemTwo % itemOne === 0;
+};
 
-// do {
+do {
+    total = myOperation(factorNumbers[i], factorNumbers[i + 1]);
+    if (total === true) {
+        answer = factorNumbers + " " + "TRUE";
+    } else {
+        answer = factorNumbers + " " + "FALSE";
+    }
 
-//     if (myOperation(factorNumbers[i], factorNumbers[i + 1]) === true) {
-//         answer = "TRUE";
-//     } else {
-//         answer = "FALSE";
-//     }
+    ++i;
+} while (i < factorNumbers.length - 1 && total !== false);
 
-//     ++i;
-// } while (i < factorNumbers.length);
-
-// console.log(answer);
+console.log(answer);
