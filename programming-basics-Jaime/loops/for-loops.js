@@ -144,3 +144,16 @@ const sumOfMultiples = () => {
 };
 console.log(`\nExercise 7: Sum of Multiples`)
 sumOfMultiples();
+
+
+// 8. Create an array filled with your friends' and family's names. Loop over the array and greet each friend e.g. Hello Maria! Hello Mike! etc.
+
+const names = () => {
+    let myNames = ["Silvia", "Juan", "Blanca", "Katja", "Javi"];
+
+    for (i = 0; i < myNames.length; ++i) {
+        console.log(`Hello ${myNames[i]}!`);
+    }
+};
+console.log(`\nExercise 8: Family and friend names`)
+names();
