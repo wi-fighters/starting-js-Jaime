@@ -89,7 +89,7 @@ const multiplicationBonus = () => {
         }
     }
 };
-console.log(`\nExercise 4: multiplication`)
+console.log(`\nExercise 4: multiplication - BONUS`)
 multiplicationBonus();
 
 
@@ -103,7 +103,7 @@ const averageMark = () => {
         total += grades[i];
     }
 
-    console.log(total / grades.length);
+    console.log(`The average of the grades is ${total / grades.length}`);
 };
 console.log(`\nExercise 5: average mark`)
 averageMark();
@@ -131,5 +131,16 @@ console.log(`\nExercise 6: Fizz Buzz`)
 fizzBuzz();
 
 
-// 7. Sum of Multiples Write a program to add the multiples of 3 and 5 under 1000.
+// 7. Sum of Multiples: Write a program to add the multiples of 3 and 5 under 1000.
 
+const sumOfMultiples = () => {
+    total = 0;
+    for (i = 0; i < 1000; ++i) {
+        if (i % 3 === 0 || i % 5 === 0) {
+            total += i;
+        }
+    }
+    console.log(`If we add the multiples of 3 and 5 under 1000, the total is ${total}`);
+};
+console.log(`\nExercise 7: Sum of Multiples`)
+sumOfMultiples();
