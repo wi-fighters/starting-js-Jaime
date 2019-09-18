@@ -165,6 +165,7 @@ const namesBonus = () => {
     let myNames = ["Silvia", "Juan", "Blanca", "Katja", "Javi"];
 
     for (i = 0; i < myNames.length; ++i) {
+        console.log(`Hello ${myNames[i]}!`);
         console.log(`${myNames[i]} is at index ${i} of myNames array`);
     }
 };
