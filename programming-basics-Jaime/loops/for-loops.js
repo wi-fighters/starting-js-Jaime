@@ -180,10 +180,57 @@ namesBonus();
 // 3 6 9 12 15
 // 9 8 7 6 5 4 3 2 1 0
 
-// const myChains = () => {
+const myChains = () => {
 
-//     const
+    const multiplyHundred = () => {
+        let number = 0;
+        for (i = 1; i <= 10; ++i) {
+            number = i;
+            number = number * 100;
+            console.log(number);
+        }
+    };
+    multiplyHundred();
 
-// };
-// console.log(`\nExercise 9: Family and friend names`)
-// myChains();
+    const multiplyTwo = () => {
+        let number = 1;
+        for (i = 1; i <= 8; ++i) {
+            console.log(number);
+            number *= 2;
+        }
+    };
+    multiplyTwo();
+
+    const addTwo = () => {
+        let number = 0;
+        for (i = 0; i < 6; ++i) {
+            console.log(number);
+            number += 2;
+        }
+    };
+    addTwo();
+
+    const addThree = () => {
+        let number = 0;
+        for (i = 0; i < 5; ++i) {
+
+            number += 3;
+            console.log(number);
+        }
+    };
+    addThree();
+
+    const subtractOne = () => {
+        let number = 0;
+        for (i = 9; i >= 0; --i) {
+            number = i;
+            console.log(number);
+        }
+    };
+    subtractOne();
+};
+console.log(`\nExercise 9: creating chains`)
+myChains();
+
+
+// 10. isPalindrome. Write a program to check whether a word is a palindrome or not. Note: a palindrome is a word, phrase, or sequence that reads the same backwards as forwards, e.g. madam or tarrattarrat
