@@ -60,6 +60,19 @@ const oddOrEven = () => {
             console.log(`The number ${number} is odd`)
         }
     }
-}
+};
 console.log(`\nExercise 3: odd or even reporter`)
 oddOrEven();
+
+
+// 4. Multiplication Tables. Write a program that will iterate from 0 to 10. For each iteration of the for loop, it will multiply the number by 9 and log the result (e.g. "2 * 9 = 18"). Bonus: Use a nested for loop to show the tables for every multiplier from 1 to 10 (100 results total).
+
+const multiplication = () => {
+    total = 0;
+    for (let i = 0; i <= 10; ++i) {
+        total = i * 9;
+        console.log(`${i} * 9 = ${total}`)
+    }
+};
+console.log(`\nExercise 4: multiplication`)
+multiplication();
