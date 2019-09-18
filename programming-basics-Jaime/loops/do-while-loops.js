@@ -33,7 +33,7 @@ const addItUp = () => {
 
     console.log(myNumber);
 };
-console.log(`EXERCISE 2: add it up`);
+console.log(`\nEXERCISE 2: add it up`);
 addItUp();
 
 // 3.Capitalize. Create a program that capitalizes the first letter of each element in an array of names, using a do while loop
@@ -51,7 +51,7 @@ const capitalize = () => {
 
     console.log(myCities);
 };
-console.log(`EXERCISE 3: capitalize`);
+console.log(`\nEXERCISE 3: capitalize`);
 capitalize();
 
 // 4. No Duplicates! A set is a collection of unique items. A set can be formed from an array by removing all duplicate items. Create a program which transforms an array into a set of unique values using a do while loop. See the examples below. 
@@ -95,7 +95,7 @@ const repeatIt = () => {
 
     console.log(program("Hello", 5));
 };
-console.log(`EXERCISE 5: repeat it`);
+console.log(`\nEXERCISE 5: repeat it`);
 repeatIt();
 
 // BONUSES - Choose the loop
@@ -126,5 +126,5 @@ const factors = () => {
 
     console.log(answer);
 };
-console.log(`BONUS EXERCISE: factors`);
+console.log(`\nBONUS EXERCISE: factors`);
 factors();
