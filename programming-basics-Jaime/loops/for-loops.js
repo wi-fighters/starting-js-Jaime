@@ -82,13 +82,38 @@ multiplication();
 const averageMark = () => {
     const grades = [90, 60, 77, 81, 65];
     let total = 0;
-    let average = 0;
 
     for (let i = 0; i < grades.length; ++i) {
         total += grades[i];
     }
-    average = total / grades.length;
-    console.log(average);
+
+    console.log(total / grades.length);
 };
 console.log(`\nExercise 5: average mark`)
 averageMark();
+
+
+// 6. Fizz Buzz Write a program which iterates the integers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
+
+// const fizzBuzz = () => {
+
+//     let fizz = "Fizz";
+//     let buzz = "Buzz";
+//     let fizzBuzz = "FizzBuzz";
+
+//     for (i = 1; i <= 100; ++i) {
+//         switch (i) {
+//             case (i % 3 === 0):
+//                 console.log(fizz);
+//             case (i % 5 === 0):
+//                 console.log(buzz);
+//             case (i % 3 === 0 && i % 5 === 0):
+//                 console.log(fizzBuzz);
+//             default:
+//                 console.log(i);
+//         }
+//     }
+
+// };
+// console.log(`\nExercise 6: Fizz Buzz`)
+// fizzBuzz();
