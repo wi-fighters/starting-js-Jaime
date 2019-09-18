@@ -234,3 +234,11 @@ myChains();
 
 
 // 10. isPalindrome. Write a program to check whether a word is a palindrome or not. Note: a palindrome is a word, phrase, or sequence that reads the same backwards as forwards, e.g. madam or tarrattarrat
+
+const isPalindrome = () => {
+    const myNames = ["madam", "jaime"];
+
+    for (i = 0; i <)
+};
+console.log(`\nExercise 10: palindrome`)
+isPalindrome();
