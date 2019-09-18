@@ -16,12 +16,11 @@ addition();
 // 2. There are i bottles of beer on the wall. Write a program that will output, "There is one bottle of beer on the wall." "There are two bottles of beer on the wall" up until there are five bottles.
 
 const beerBottles = () => {
-    let total = 0;
+    let total = "";
 
     for (let i = 1; i <= 5; ++i) {
-        total += 1;
 
-        if (total === 1) {
+        if (i === 1) {
             console.log(`There is one bottle of beer on the wall.`)
         } else {
             switch (i) {
@@ -76,3 +75,20 @@ const multiplication = () => {
 };
 console.log(`\nExercise 4: multiplication`)
 multiplication();
+
+
+// 5. Grades. Write a program to calculate the average mark of the following grades: 90, 60, 77, 81, 65.
+
+const averageMark = () => {
+    const grades = [90, 60, 77, 81, 65];
+    let total = 0;
+    let average = 0;
+
+    for (let i = 0; i < grades.length; ++i) {
+        total += grades[i];
+    }
+    average = total / grades.length;
+    console.log(average);
+};
+console.log(`\nExercise 5: average mark`)
+averageMark();
