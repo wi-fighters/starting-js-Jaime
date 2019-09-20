@@ -1,41 +1,35 @@
 const myWord = ["L", "O", "O", "P"];
-const yourGuess = ["_", "_", "_", "_"];
+const yourGuess = ["*", "*", "*", "*"];
 
 const guessLetter = (letter) => {
-    let answer = "";
 
-    letter = letter.toLocaleLowerCase();
+    letter = letter.toLocaleUpperCase();
+    guess = false;
 
-    for (let i = 0; i < myWord.length; i++) {
-        if (letter === "l") {
-            yourGuess[0] = "L";
-            answer = yourGuess;
-            break;
-
-        } else if (letter === "o") {
-            yourGuess[1] = "O";
-            yourGuess[2] = "O";
-            answer = yourGuess;
-            break;
-
-        } else if (letter === "p") {
-            yourGuess[3] = "P";
-            answer = yourGuess;
-            break;
-
-        } else {
-            answer = `My word doesn't have the letter ${letter.toLocaleUpperCase()}`;
-            break;
+    for (let i = 0; i < myWord.length; ++i) {
+        if (myWord[i] === letter) {
+            yourGuess[i] = letter;
+            guess = true;
         }
+    } if (guess === true && yourGuess.includes("*") !== true) {
+        console.log(`\nYou chose the letter '${letter}'...
+ALRIGHT! The board looks now like this [${yourGuess}]`);
+        console.log("Well done! Congratulations!");
+    } else if (guess === true) {
+        console.log(`\nYou chose the letter '${letter}'...
+ALRIGHT! The board looks now like this [${yourGuess}]`);
+    } else {
+        console.log(`\nYou chose the letter '${letter}'...
+WRONG! Continue playing...`);
     }
-
-    console.log(answer);
 };
 
-guessLetter("r");
+guessLetter("i");
 guessLetter("k");
-guessLetter("l");
-guessLetter("G");
 guessLetter("o");
-guessLetter("t");
+guessLetter("s");
 guessLetter("p");
+guessLetter("l");
+
+
+
