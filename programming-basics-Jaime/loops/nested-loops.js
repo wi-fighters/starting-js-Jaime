@@ -54,9 +54,7 @@ loopTwo();
 // EXERCISE 2 - REFACTORED with functions.
 
 const loopTwoRefactored = () => {
-
     let pipesAndDashes = "";
-
     const assigningSymbols = (symbolOne, symbolTwo) => {
         lineOfSymbols = "";
         for (let j = 0; j < 5; ++j) {
@@ -70,7 +68,6 @@ const loopTwoRefactored = () => {
     };
 
     for (let i = 0; i < 3; ++i) {
-
         if (i % 2 === 0) {
             pipesAndDashes = assigningSymbols("-", "|");
         } else {
@@ -98,3 +95,22 @@ const loopThree = () => {
 };
 console.log(`\nThird loop:`);
 loopThree();
+
+
+
+// EXERCISE 4: BONUS.
+
+const exerciseBonus = () => {
+    let starsTree = "";
+
+    for (let i = 0; i < 1; ++i) {
+        starsTree += "*";
+        // console.log(starsTree);
+        for (let j = 0; j < 1; ++j) {
+            starsTree = " " + starsTree;
+        }
+        console.log(starsTree);
+    }
+};
+console.log(`\nBonus exercise:`);
+exerciseBonus();

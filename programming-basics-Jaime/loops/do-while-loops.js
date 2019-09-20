@@ -56,24 +56,24 @@ capitalize();
 
 // 4. No Duplicates! A set is a collection of unique items. A set can be formed from an array by removing all duplicate items. Create a program which transforms an array into a set of unique values using a do while loop. See the examples below. 
 
-// const noDuplicates = () => {
-// const myNumbers = [1, 1, 23, 5, 5, 34, 3, 3, 3];
-// let i = 0;
-// let uniqueItems = [];
+const noDuplicates = () => {
+    const myNumbers = [1, 1, 23, 5, 5, 34, 3, 3, 3];
+    let i = 0;
+    let uniqueItems = [];
 
-// do {
+    do {
 
-//     if (myNumbers.includes(myNumbers[i])) {
-//         uniqueItems.push();
-//     }
+        if (uniqueItems.includes(myNumbers[i]) !== true) {
+            uniqueItems.push(myNumbers[i]);
+        }
 
-//     ++i;
-// } while (i < myNumbers.length);
+        ++i;
+    } while (i < myNumbers.length);
 
-// console.log(uniqueItems);
-// };
-// console.log(`EXERCISE 4: no duplicates`);
-// noDuplicates();
+    console.log(`We go from the array [${myNumbers}] to this array: [${uniqueItems}]`);
+};
+console.log(`EXERCISE 4: no duplicates`);
+noDuplicates();
 
 // 5. Repeat it. Create a program with two variables: "item" and "times". Create a program that repeats the "item" as many times as specified by "times". The first variable ("item") is the item that needs repeating while the second argument ("times") is the number of times the item is to be repeated. Print the result in an array.
 
