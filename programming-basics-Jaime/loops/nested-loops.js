@@ -98,19 +98,24 @@ loopThree();
 
 
 
-// EXERCISE 4: BONUS.
+// EXERCISE 4: BONUS: the Christmas tree
 
-const exerciseBonus = () => {
-    let starsTree = "";
+// const exerciseBonus = () => {
+//     let starsTree = "";
 
-    for (let i = 0; i < 1; ++i) {
-        starsTree += "*";
-        // console.log(starsTree);
-        for (let j = 0; j < 1; ++j) {
-            starsTree = " " + starsTree;
-        }
-        console.log(starsTree);
-    }
-};
-console.log(`\nBonus exercise:`);
-exerciseBonus();
+
+//     for (let x = 0; x < 4; ++x) {
+//         if (x < 1) {
+//             starsTree += "-";
+//         } else {
+//             starsTree = "*"
+//             starsTree += "**";
+//         }
+//         for (let i = 0; i < 4; ++i) {
+//             starsTree += "-";
+//         }
+//         console.log(starsTree);
+//     }
+// };
+// console.log(`\nBonus exercise - The Christmas Tree:`);
+// exerciseBonus();
