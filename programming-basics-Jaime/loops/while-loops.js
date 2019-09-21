@@ -16,9 +16,9 @@ runAlong();
 // 2. City Names. Create an array of city names. Loop through the array and add the city names to a string. Example of expected output: "Berlin, Paris, Prague, Rome".
 
 const cityNames = () => {
-    const citiesArray = ["Madrid", "Málaga", "Bilbao", "Barcelona", "Sevilla", "Granada"]; // length = 6
-    let i = 0; // 1
-    let myCities = ""; // "Madrid, " + 
+    const citiesArray = ["Madrid", "Málaga", "Bilbao", "Barcelona", "Sevilla", "Granada"];
+    let i = 0;
+    let myCities = "";
 
     while (i < citiesArray.length) {
 
