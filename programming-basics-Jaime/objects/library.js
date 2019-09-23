@@ -12,11 +12,15 @@ const myBooks = [
     {
         title: "Harry Potter and the Sorcerer's Stone",
         author: "J.K.Rowling",
-        alreadyRead: false
+        alreadyRead: true
     },
     {
         title: "1984",
         author: "George Orwell",
-        alreadyRead: false
+        alreadyRead: true
     },
 ];
+
+for (let i = 0; i < myBooks.length; ++i) {
+    console.log(`${myBooks[i].title} by ${myBooks[i].author}`)
+}
