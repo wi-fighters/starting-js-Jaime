@@ -1,4 +1,4 @@
-let profile = {
+const profile = {
     firstName: "Jaime",
     lastName: "Segura",
     age: (yearOfBorn) => {
