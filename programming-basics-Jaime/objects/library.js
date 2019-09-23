@@ -22,5 +22,9 @@ const myBooks = [
 ];
 
 for (let i = 0; i < myBooks.length; ++i) {
-    console.log(`${myBooks[i].title} by ${myBooks[i].author}`)
+    if (myBooks[i].alreadyRead === true) {
+        console.log(`You've already read ${myBooks[i].title} by ${myBooks[i].author}`)
+    } else {
+        console.log(`You still need to read ${myBooks[i].title} by ${myBooks[i].author}`)
+    }
 }
