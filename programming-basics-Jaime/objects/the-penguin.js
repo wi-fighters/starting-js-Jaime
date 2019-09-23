@@ -1,6 +1,6 @@
 const myPenguin = new Object();
-myPenguin["character's name"] = "Misha";
+myPenguin.name = "Misha";
 myPenguin.origin = "Death and the Penguin, Penguin Lost";
 myPenguin.author = "Andrey Kurkov";
 
-console.log(myPenguin);
+console.log(`Hello, I'm a penguin and my name is ${myPenguin.name}!`);
