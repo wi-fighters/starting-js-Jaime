@@ -1,0 +1,1 @@
+const myPenguin = new Object();
