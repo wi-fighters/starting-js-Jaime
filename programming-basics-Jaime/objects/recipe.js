@@ -14,11 +14,11 @@ myRecipe.ingredients = (people) => {
     }
 };
 
-console.log(`What is the recipe?`);
-console.log(myRecipe.name);
+console.log(`What are we cooking today?`);
+console.log(`We are cooking: ${myRecipe.name}`);
 
 console.log(`\nWhat do I need to cook it for one person?`);
-console.log(myRecipe.ingredients(1));
+console.log(`You'll need: ${myRecipe.ingredients(1)}`);
 
-console.log(`\nWhat do I need to cook it for one person?`);
-console.log(myRecipe.ingredients(4));
+console.log(`\nWhat do I need to cook it for 4 people?`);
+console.log(`You'll need: ${myRecipe.ingredients(4)}`);
