@@ -6,11 +6,11 @@ myRecipe.onePerson = {
     bacon: 40,
     parmesan: 40
 };
-myRecipe.ingredients = (people) => {
+myRecipe.ingredients = function (people) {
     if (people <= 1) {
-        return `${people * myRecipe.onePerson.spaghetti}gr spaghetti, ${people * myRecipe.onePerson.eggs} egg, ${people * myRecipe.onePerson.bacon}gr bacon, ${people * myRecipe.onePerson.parmesan}gr parmesan`;
+        return `${this.onePerson.spaghetti}gr spaghetti, ${this.onePerson.eggs} egg, ${this.onePerson.bacon}gr bacon, ${this.onePerson.parmesan}gr parmesan`;
     } else {
-        return `${people * myRecipe.onePerson.spaghetti}gr spaghetti, ${people * myRecipe.onePerson.eggs} eggs, ${people * myRecipe.onePerson.bacon}gr bacon, ${people * myRecipe.onePerson.parmesan}gr parmesan`;
+        return `${people * this.onePerson.spaghetti}gr spaghetti, ${people * this.onePerson.eggs} eggs, ${people * this.onePerson.bacon}gr bacon, ${people * this.onePerson.parmesan}gr parmesan`;
     }
 };
 
