@@ -30,4 +30,8 @@ for (let i = 0; i < fibonnaciNumbers.length; ++i) {
 };
 
 // 3 - Console.log the value “second” inside the order array.
+
+const orderArray = nestedData.innerData.order;
+console.log(`\nThis is the secons value of the order array: ${orderArray[1]}`);
+
 // 4 - Inside of the addSnack function there is a special keyword called this.What does the word this refer to inside the addSnack function?
