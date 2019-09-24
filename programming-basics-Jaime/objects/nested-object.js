@@ -13,7 +13,13 @@ const nestedData = {
     }
 };
 
-// 1-Using a for loop, console.log all of the numbers in the primeNumbers array.
+// 1 - Using a for loop, console.log all of the numbers in the primeNumbers array.
+
+const primeNumbers = nestedData.innerData.numberData.primeNumbers;
+for (let i = 0; i < primeNumbers.length; ++i) {
+    console.log(primeNumbers[i]);
+};
+
 // 2 - Using a for loop, console.log all of the even Fibonnaci numbers.
 // 3 - Console.log the value “second” inside the order array.
 // 4 - Inside of the addSnack function there is a special keyword called this.What does the word this refer to inside the addSnack function?
