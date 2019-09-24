@@ -35,3 +35,9 @@ const orderArray = nestedData.innerData.order;
 console.log(`\nThis is the secons value of the order array: ${orderArray[1]}`);
 
 // 4 - Inside of the addSnack function there is a special keyword called this.What does the word this refer to inside the addSnack function?
+
+console.log(`\nNow I'm adding chettos to the snacks array`);
+nestedData.innerData.addSnack("chettos");
+console.log(nestedData.innerData.snacks);
+
+// In this case "this" refers to "nestedData.innerData"
