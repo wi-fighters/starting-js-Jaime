@@ -69,3 +69,5 @@ Object.defineProperty(myCounter, "subtract", {
 console.log(`\nNow I'm going to subtract 15 to the counter`);
 myCounter.subtract = 15;
 console.log(`Counter: ${myCounter.counter}`);
+
+console.log(myCounter);
