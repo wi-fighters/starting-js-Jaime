@@ -20,25 +20,59 @@ const nestedObject = {
             }
         }
     },
+    // my solution:
+    // addSpeaker: function (newSpeaker) {
+    //     this.speakers.push(newSpeaker);
+    // },
+
+    // better solution:
     addSpeaker: function (newSpeaker) {
-        this.speakers.push(newSpeaker);
+        this.speakers.push({ name: newSpeaker });
     },
-    addLanguage: function (newLang, language) {
-        this.data.languages[newLang] = language;
+
+    // my solution:
+    // addLanguage: function (newLang, language) {
+    //     this.data.languages[newLang] = language;
+    // },
+
+    //better solution:
+    addLanguage: function (newLanguage, helloInNewLanguage) {
+        this.data.languages[newLanguage] = { hello: helloInNewLanguage };
     },
-    addCountry: function (newCountry, country) {
-        this.data.continents.europe.countries[newCountry] = country;
+    // my solution:
+    // addCountry: function (newCountry, country) {
+    //     this.data.continents.europe.countries[newCountry] = country;
+    // }
+
+    //better solution:
+    addCountry: function (newCountry, capital, population) {
+        this.data.continents.europe.countries[newCountry] = { capital: capital, population: population }
     }
 };
 
-const jaime = { name: "Jaime" };
-nestedObject.addSpeaker(jaime);
+// my solution:
+// const jaime = { name: "Jaime" };
+// nestedObject.addSpeaker(jaime);
+// console.log(nestedObject.speakers);
+
+// better solution:
+nestedObject.addSpeaker("Jaime");
 console.log(nestedObject.speakers);
 
-const german = { hello: "Hallo" };
-nestedObject.addLanguage("german", german);
+// my solution:
+// const german = { hello: "Hallo" };
+// nestedObject.addLanguage("german", german);
+// console.log(nestedObject.data.languages);
+
+// better solution:
+nestedObject.addLanguage("German", "Hallo");
 console.log(nestedObject.data.languages);
 
-const spain = { capital: "Madrid", population: 45000000 };
-nestedObject.addCountry("spain", spain);
+// my solution:
+// const spain = { capital: "Madrid", population: 45000000 };
+// nestedObject.addCountry("spain", spain);
+// console.log(nestedObject.data.continents.europe.countries);
+
+// better solution:
+nestedObject.addCountry("Spain", "Madrid", 45000000);
 console.log(nestedObject.data.continents.europe.countries);
