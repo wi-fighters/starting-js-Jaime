@@ -26,7 +26,9 @@ for (let i = 0; i < primeNumbers.length; ++i) {
 const fibonnaciNumbers = nestedData.innerData.numberData.fibonnaci;
 console.log(`\nThese are the Fibonnaci numbers:`);
 for (let i = 0; i < fibonnaciNumbers.length; ++i) {
-    console.log(fibonnaciNumbers[i]);
+    if (fibonnaciNumbers[i] % 2 === 0) {
+        console.log(fibonnaciNumbers[i]);
+    }
 };
 
 // 3 - Console.log the value “second” inside the order array.

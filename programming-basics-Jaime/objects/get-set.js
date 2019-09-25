@@ -12,8 +12,9 @@ const exampleOne = () => {
             return this.city = myCity;
         }
     };
-    console.log(person.age);
-    console.log(person.occupation);
+    // console.log(person.age);
+    // console.log(person.occupation);
+    console.log(person.city);
     console.log(person.job);
     person.home = "Berlin";
     console.log(person.city);
