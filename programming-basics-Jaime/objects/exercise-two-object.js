@@ -48,24 +48,21 @@ const people = [person1, person2, person3, person4, person5];
 
 // How many people have a job?
 
-let employedPeople = [];
 
 const findEmployed = () => {
 
-    let employedPeopleNames = "";
+    let employedPeople = [];
     for (let i = 0; i < people.length; ++i) {
-        employedPeopleNames = "";
+
         if (people[i].employed === true) {
             employedPeople.push(people[i].firstName);
-            employedPeopleNames += `- ${people[i].firstName} ${people[i].lastName}`;
-            return employedPeopleNames;
         }
     }
+    return employedPeople.length;
 };
 
-findEmployed();
-console.log(`\nHow many people of the group have a job? ${employedPeople.length}`);
-console.log(findEmployed());
+console.log(`\nHow many people of the group have a job? ${findEmployed()}`);
+
 
 // Who is over 30 and has no job?
 
