@@ -16,3 +16,6 @@ console.log(jaime);
 
 peter.weight = 80;
 console.log(peter);
+
+const newPerson = Object.assign(jaime, peter);
+console.log(newPerson);
