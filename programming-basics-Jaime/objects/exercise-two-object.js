@@ -67,11 +67,10 @@ console.log(`\nHow many people of the group have a job? ${findEmployed()}`);
 // Who is over 30 and has no job?
 
 const over30AndUnemployed = () => {
-    let unemployedPeople = "";
+
     for (let i = 0; i < people.length; ++i) {
-        unemployedPeople = "";
         if (people[i].age >= 30 && people[i].employed !== true) {
-            console.log(unemployedPeople += `- ${people[i].firstName} ${people[i].lastName}`)
+            console.log(`- ${people[i].firstName} ${people[i].lastName}`)
         }
     }
 };
