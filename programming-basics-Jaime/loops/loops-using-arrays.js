@@ -14,7 +14,6 @@ const exerciseOne = () => {
     console.log(sumOfNumbers([23, 1, 3]));
     console.log(sumOfNumbers([99, 77, 55]));
 
-    return sumOfNumbers;
 };
 console.log(`\nExercise 1: sumOfNumbers\n`);
 exerciseOne();
@@ -33,8 +32,24 @@ const exerciseTwo = () => {
     };
 
     helloFriend();
-
-    return helloFriend;
 };
 console.log(`\nExercise 2: helloFriend\n`);
 exerciseTwo();
+
+
+const exerciseThree = () => {
+
+    const cityNames = () => {
+        let myCities = "";
+        const cities = ["Madrid", "Málaga", "Sevilla", "Granada"];
+        for (let i = 0; i < cities.length; ++i) {
+            myCities = cities.join(", ");
+        }
+        console.log(myCities);
+    };
+
+    cityNames();
+
+};
+console.log(`\nExercise 2: helloFriend\n`);
+exerciseThree();
