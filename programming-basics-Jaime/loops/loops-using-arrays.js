@@ -16,5 +16,25 @@ const exerciseOne = () => {
 
     return sumOfNumbers;
 };
-console.log(`\nExercise 1: sumOfNumbers`);
+console.log(`\nExercise 1: sumOfNumbers\n`);
 exerciseOne();
+
+
+const exerciseTwo = () => {
+
+    const helloFriend = () => {
+
+        const friends = ["Silvia", "Juan", "Blanca", "Katja"];
+        for (let i = 0; i < friends.length; ++i) {
+            console.log(`Hello ${friends[i]}!`);
+            console.log(`${friends[i]} is at index ${i} of my friends array`);
+        }
+
+    };
+
+    helloFriend();
+
+    return helloFriend;
+};
+console.log(`\nExercise 2: helloFriend\n`);
+exerciseTwo();
