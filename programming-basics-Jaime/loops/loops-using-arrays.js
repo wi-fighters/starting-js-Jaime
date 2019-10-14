@@ -28,7 +28,6 @@ const exerciseTwo = () => {
             console.log(`Hello ${friends[i]}!`);
             console.log(`${friends[i]} is at index ${i} of my friends array`);
         }
-
     };
 
     helloFriend();
@@ -49,7 +48,27 @@ const exerciseThree = () => {
     };
 
     cityNames();
-
 };
-console.log(`\nExercise 2: helloFriend\n`);
+console.log(`\nExercise 3: cityNames\n`);
 exerciseThree();
+
+
+const exerciseFour = () => {
+
+    const oddsAndEvens = (numbers) => {
+        for (let i = 0; i < numbers.length; ++i) {
+
+            if (numbers[i] % 2 === 0) {
+                numbers[i] -= 1;
+            } else {
+                numbers[i] += 1;
+            }
+        }
+        return numbers;
+    };
+
+    console.log(oddsAndEvens([3, 5, 2, 4]));
+    console.log(oddsAndEvens([6, 9, 10, 20]));
+};
+console.log(`\nExercise 4: oddsAndEvens\n`);
+exerciseFour();
