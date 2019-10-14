@@ -72,3 +72,20 @@ const exerciseFour = () => {
 };
 console.log(`\nExercise 4: oddsAndEvens\n`);
 exerciseFour();
+
+
+const exerciseFive = () => {
+
+    const capitalize = (names) => {
+        for (let i = 0; i < names.length; ++i) {
+            names[i] = names[i][0].toLocaleUpperCase() + names[i].substring(1).toLocaleLowerCase();
+        }
+        return names;
+    };
+
+    console.log(capitalize(["matt", "sara", "lara"]));
+    console.log(capitalize(["samuel", "MARIA", "luke", "mary"]));
+    console.log(capitalize(["Cynthia", "Karen", "Jane", "Carrie"]));
+};
+console.log(`\nExercise 4: Capitalize\n`);
+exerciseFive();
