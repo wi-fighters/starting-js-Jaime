@@ -87,5 +87,26 @@ const exerciseFive = () => {
     console.log(capitalize(["samuel", "MARIA", "luke", "mary"]));
     console.log(capitalize(["Cynthia", "Karen", "Jane", "Carrie"]));
 };
-console.log(`\nExercise 4: Capitalize\n`);
+console.log(`\nExercise 5: Capitalize\n`);
 exerciseFive();
+
+
+const exerciseSix = () => {
+
+    const noDuplicates = (numbers) => {
+        const setNumbers = [];
+        for (let i = 0; i < numbers.length; ++i) {
+            if (!setNumbers.includes(numbers[i])) {
+                setNumbers.push(numbers[i]);
+            }
+        }
+        return setNumbers;
+    };
+
+    console.log(noDuplicates([1, 4, 4, 7, 7, 7]));
+    console.log(noDuplicates([1, 6, 6, 9, 9]));
+    console.log(noDuplicates([2, 2, 2, 2, 2, 2]));
+    console.log(noDuplicates([5, 10, 15, 20, 25]));
+};
+console.log(`\nExercise 6: noDuplicates\n`);
+exerciseSix();
