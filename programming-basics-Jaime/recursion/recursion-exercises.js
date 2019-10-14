@@ -55,7 +55,15 @@ for (let i = 1; i <= 8; i++) {
 // https://www.mathsisfun.com/numbers/fibonacci-sequence.html
 const fibonacci = level => {
 
-    // replace this comment with your code
+    let number = 0;
+    if (level === 0 || level === 1) {
+        return level;
+    } else {
+        for (let i = 1; i <= level; ++i) {
+            number = fibonacci(level - 1) + fibonacci(level - 2);
+        }
+        return number;
+    }
 
 };
 
