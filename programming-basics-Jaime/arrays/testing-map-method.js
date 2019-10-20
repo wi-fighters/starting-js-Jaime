@@ -1,7 +1,7 @@
 const tests = ["mario", "luigi", "boozer", "princess"];
 
 // This method traverse the whole array and prints each element returning TRUE or FALSE 
-const isLongerThanFive = tests.map(element => element.length > 5);
+const isLongerThanFive = tests.map(element => element);
 console.log(isLongerThanFive);
 
 // This method traverse the whole array and print an array only with the elements you are looking for 
