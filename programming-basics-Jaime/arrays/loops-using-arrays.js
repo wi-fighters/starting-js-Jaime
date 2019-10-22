@@ -94,13 +94,13 @@ exerciseFour();
 
 const exerciseFive = () => {
 
-    const names = ["mAtt", "saRA", "lara"];
-    console.log(`Original array of names: `, names);
-
     const capitalize = value => {
 
         return value.map(element => element.substring(0, 1).toLocaleUpperCase() + element.substring(1).toLocaleLowerCase());
     };
+
+    const names = ["mAtt", "saRA", "lara"];
+    console.log(`Original array of names: `, names);
 
     console.log(`Capitalized names:\t `, capitalize(names));
 
@@ -134,3 +134,45 @@ const exerciseSix = () => {
 
 console.log(`\nExercise 6: Duplicates\n`);
 exerciseSix();
+
+
+// Factors. A factor chain is an array where each previous element is a factor of the next consecutive element. The following is a factor chain: [3, 6, 12, 36]
+// 3 is a factor of 6 (3 * 2 = 6)
+// 6 is a factor of 12 (6 * 2 = 12)
+// 12 is a factor of 36 (12 * 3 = 36)
+// Create a program that determines whether or not a given array is a factor chain.
+// Examples
+// [1, 2, 4, 8, 16, 32] ➞ true
+// [1, 1, 1, 1, 1, 1] ➞ true
+// [2, 4, 6, 7, 12] ➞ false
+// [10, 1] ➞ false
+
+const exerciseEight = () => {
+
+    const factors = value => {
+
+        let index = 0;
+
+        const result = value.map(element => {
+            index += 1;
+            return value[index] % element === 0;
+        });
+
+        result.pop();
+
+        return result.every(element => element === true);
+
+    };
+
+    const arrayOne = [1, 2, 4, 8, 16, 32];
+    const arrayTwo = [2, 4, 6, 7, 12];
+
+    console.log(`Original arrayOne: `, arrayOne);
+    console.log(`arrayOne is a factor chain: `, factors(arrayOne));
+    console.log(`Original arrayTwo: `, arrayTwo);
+    console.log(`arrayTwo is a factor chain: `, factors(arrayTwo));
+
+};
+
+console.log(`\nExercise 8: factors\n`);
+exerciseEight();
