@@ -150,11 +150,9 @@ const exerciseEight = () => {
 
     const factors = value => {
 
-        let index = 0;
-
         const result = value.map(element => {
-            index += 1;
-            return value[index] % element === 0;
+
+            return value[value.indexOf(element) + 1] % element === 0;
         });
 
         result.pop();
