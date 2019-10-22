@@ -54,6 +54,7 @@ const exerciseThree = () => {
     };
 
     const cities = ["Berlin", "Paris", "Madrid", "Rome"];
+
     console.log(`Original array of cities: `, cities);
     console.log(`String of cities:\t\t`, cityNames(cities));
 
@@ -62,4 +63,28 @@ const exerciseThree = () => {
 console.log(`\nExercise 3: cityNames\n`);
 exerciseThree();
 
+
+// Odds and Evens. Create a program that changes a given array by adding 1 to each odd integer and subtracting 1 from each even integer. Examples:
+// [3, 5, 2, 4]➞ expected output: [4, 6, 1, 3]
+// [6, 9, 10, 20]➞ expected output: [5, 10, 9, 19]
+
+const exerciseFour = () => {
+
+    const oddsAndEvens = value => {
+
+        return value.map(element => (element % 2 === 0) ? element - 1 : element + 1);
+    };
+
+    const arrayOne = [3, 5, 2, 4];
+    const arrayTwo = [6, 9, 10, 20]
+
+    console.log(`Original array one: `, arrayOne);
+    console.log(`Modified array one: `, oddsAndEvens(arrayOne));
+    console.log(`Original array two: `, arrayTwo);
+    console.log(`Modified array one: `, oddsAndEvens(arrayTwo));
+
+};
+
+console.log(`\nExercise 4: oddsAndEvens\n`);
+exerciseFour();
 
