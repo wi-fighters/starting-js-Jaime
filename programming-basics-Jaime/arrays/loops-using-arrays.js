@@ -102,9 +102,35 @@ const exerciseFive = () => {
         return value.map(element => element.substring(0, 1).toLocaleUpperCase() + element.substring(1).toLocaleLowerCase());
     };
 
-    console.log(`Capitalized names: `, capitalize(names));
+    console.log(`Capitalized names:\t `, capitalize(names));
 
 };
 
 console.log(`\nExercise 5: Capitalize\n`);
 exerciseFive();
+
+
+//  Duplicates! A set is a collection of unique items. A set can be formed from an array by removing all duplicate items. Create a program which transforms an array into a set of unique values. See the examples below. Example:
+// [1, 4, 4, 7, 7, 7]➞[1, 4, 7]
+
+const exerciseSix = () => {
+
+    const duplicates = value => {
+
+        const newNums = [];
+        value.map(element => {
+            !newNums.includes(element) ? newNums.push(element) : false;
+        });
+
+        return newNums;
+    };
+
+    const nums = [1, 4, 4, 7, 7, 7];
+
+    console.log(`Original array of numbers:\t `, nums);
+    console.log(`Array without duplicate numbers: `, duplicates(nums));
+
+};
+
+console.log(`\nExercise 6: Duplicates\n`);
+exerciseSix();
