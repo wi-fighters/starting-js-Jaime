@@ -14,5 +14,8 @@ const sarah = new Person("Sarah", 45, "Green Avenue 3", 29000);
 
 const people = [john, peter, sarah];
 
-console.log(people);
+// console.log(people);
 
+const getNameAndAge = people.map(element => [element.name, element.age]);
+
+console.log(people);

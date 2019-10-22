@@ -3,10 +3,13 @@
 const exerciseOne = () => {
 
     const sumOfNumbers = value => {
-        let result = 0;
-        value.map(element => result += element);
 
-        return result;
+        return value.reduce((sum, element) => sum + element);
+
+        // let result = 0;
+        // value.map(element => result += element);
+
+        // return result;
     };
 
     const nums = [12, 45, 95, 345, 2, 97];
@@ -150,9 +153,9 @@ const exerciseEight = () => {
 
     const factors = value => {
 
-        const result = value.map((currElement, index) => {
+        const result = value.map((element, i) => {
 
-            return (value[index + 1] % currElement === 0);
+            return (value[i + 1] % element === 0);
         });
 
         result.pop();
