@@ -8,19 +8,11 @@ class Person {
     }
 }
 
-const people = [];
 const john = new Person("John", 30, "Fake street 123", 20000);
 const peter = new Person("Peter", 34, "Blues street 67", 34000);
 const sarah = new Person("Sarah", 45, "Green Avenue 3", 29000);
 
-const extractArrays = array => Object.entries(array);
+const people = [john, peter, sarah];
 
-const extractAge = person => person.age;
-
-console.log(extractAge(john));
-
-console.log(extractArrays(john));
-
-// const whoIsOldest =
-
+console.log(people);
 

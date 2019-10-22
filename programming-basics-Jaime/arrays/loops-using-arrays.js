@@ -25,10 +25,9 @@ exerciseOne();
 const exerciseTwo = () => {
 
     const helloFriend = value => {
-        let index = -1;
+
         return value.map(element => {
-            index += 1;
-            console.log(`Hello ${element}. ${element} is at index ${index} of my friends array`)
+            console.log(`Hello ${element}. ${element} is at index ${value.indexOf(element)} of my friends array`)
         });
     };
 
