@@ -38,7 +38,28 @@ const exerciseTwo = () => {
     console.log(`Greetings: \n`)
     helloFriend(friends);
 
-}
+};
 
 console.log(`\nExercise 2: helloFriends`);
 exerciseTwo();
+
+
+// City Names. Create an array of city names. Loop through the array and add the city names to a string. Example of expected output: "Berlin, Paris, Prague, Rome".
+
+const exerciseThree = () => {
+
+    const cityNames = value => {
+        const citiesString = value.map(element => value.join(", "));
+        return citiesString[0];
+    };
+
+    const cities = ["Berlin", "Paris", "Madrid", "Rome"];
+    console.log(`Original array of cities: `, cities);
+    console.log(`String of cities:\t\t`, cityNames(cities));
+
+};
+
+console.log(`\nExercise 3: cityNames\n`);
+exerciseThree();
+
+
