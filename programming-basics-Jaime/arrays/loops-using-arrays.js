@@ -88,3 +88,23 @@ const exerciseFour = () => {
 console.log(`\nExercise 4: oddsAndEvens\n`);
 exerciseFour();
 
+
+// Capitalize. Create a program that capitalizes the first letter of each element in an array of names. Examples:
+// ["mAtt", "saRA", "lara"]➞["Matt", "Sara", "Lara"]
+
+const exerciseFive = () => {
+
+    const names = ["mAtt", "saRA", "lara"];
+    console.log(`Original array of names: `, names);
+
+    const capitalize = value => {
+
+        return value.map(element => element.substring(0, 1).toLocaleUpperCase() + element.substring(1).toLocaleLowerCase());
+    };
+
+    console.log(`Capitalized names: `, capitalize(names));
+
+};
+
+console.log(`\nExercise 5: Capitalize\n`);
+exerciseFive();
