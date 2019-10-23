@@ -58,7 +58,36 @@
 // console.log(capitalize);
 // // Peter
 
-const array = [1, 2, 3, 4, 5];
-const number = 7;
+// const obj = {
+//     name: "Jaime",
+//     age: 31,
+// };
 
-console.log(array % 2 === 0);
+// const newArray = [...obj];
+
+// console.log(newArray);
+
+const cuisines = [["pizza", "burratta", "spaguetti"], ["cocido", "gazpacho"], ["burguer"]];
+const cities = ["Madrid", "Sevilla", "Toledo", "Ciudad Real", "Cádiz"];
+
+const isLongerThanFive = value => value.filter(element => element.length > 5);
+const isLongerThanSix = value => value.filter(element => element.length > 6);
+const isLongerThanSeven = value => value.filter(element => element.length > 7);
+
+const filterFunc = (value, callback) => callback(value);
+
+console.log(filterFunc(cities, isLongerThanFive));
+console.log(filterFunc(cities, isLongerThanSix));
+console.log(filterFunc(cities, isLongerThanSeven));
+
+// const arrayLongerThanTwo = filterFunc(cuisines, isLongerThanTwo);
+
+// const pushInsideNewArray = (value, destination) => destination.push(value.map(element => element));
+
+// console.log(arrayLongerThanTwo);
+
+
+
+// pushInsideNewArray(arrayLongerThanTwo, newArray);
+
+// console.log(newArray);
