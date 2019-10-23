@@ -5,7 +5,6 @@ const exerciseOne = () => {
     const sumOfNumbers = value => {
 
         return value.reduce((sum, element) => sum + element);
-
         // let result = 0;
         // value.map(element => result += element);
 
@@ -78,7 +77,7 @@ const exerciseFour = () => {
     };
 
     const arrayOne = [3, 5, 2, 4];
-    const arrayTwo = [6, 9, 10, 20]
+    const arrayTwo = [6, 9, 10, 20];
 
     console.log(`Original array one: `, arrayOne);
     console.log(`Modified array one: `, oddsAndEvens(arrayOne));

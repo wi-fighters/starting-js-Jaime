@@ -42,10 +42,23 @@
 // console.log(factors([10, 1]));
 
 
-const list = ["h", "e", "l", "l", "o"];
-list.map((currElement, index) => {
-    console.log("The current iteration is: " + index);
-    console.log("The current element is: " + currElement);
-    console.log("\n");
-    return currElement; //equivalent to list[index]
-});
+// const list = ["h", "e", "l", "l", "o"];
+// list.map((currElement, index) => {
+//     console.log("The current iteration is: " + index);
+//     console.log("The current element is: " + currElement);
+//     console.log("\n");
+//     return currElement; //equivalent to list[index]
+// });
+
+
+// const names = ["mAtt", "saRA", "lara"];
+
+// const capitalize = names.map(name => name.substring(0, 1).toLocaleUpperCase() + name.substring(1).toLocaleLowerCase());
+
+// console.log(capitalize);
+// // Peter
+
+const array = [1, 2, 3, 4, 5];
+const number = 7;
+
+console.log(array % 2 === 0);
